@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(curl *)",
+      "Bash(grep -oE \"\\(text-slate-900|border-orange-600\\)[^\\\\\\\\\\\\\\\\]*color: rgb\\\\\\([^\\)]*\\\\\\)\")",
+      "Bash(tr '\\\\\\\\' '\\\\n')"
+    ]
+  }
+}
