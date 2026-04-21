@@ -90,14 +90,12 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKey))
 
     <!-- Image -->
     <section class="mx-auto max-w-6xl px-6 pb-12">
-      <div class="overflow-hidden rounded-sm border border-slate-200 bg-slate-100">
-        <NuxtImg
-          :src="project.image"
-          :alt="project.title"
-          class="aspect-[16/9] w-full object-cover"
-          loading="eager"
-        />
-      </div>
+      <SmartImage
+        :src="project.image"
+        :alt="project.title"
+        loading="eager"
+        class="aspect-[16/9] w-full rounded-sm border border-slate-200"
+      />
     </section>
 
     <!-- Body: overview + highlights -->

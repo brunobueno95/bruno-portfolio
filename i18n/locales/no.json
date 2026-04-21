@@ -122,7 +122,8 @@
       "kicker": "Full CV",
       "title": "Last ned CV-en (PDF).",
       "lede": "Fullversjonen — sertifiseringer, datoer, organisasjoner.",
-      "button": "Last ned CV"
+      "button": "Last ned CV",
+      "view": "Les i nettleseren"
     }
   },
   "experience": {
@@ -194,7 +195,9 @@
     "basedLede": "Sentraleuropeisk tid. Mobiliseringsradius: norsk sokkel og Nordsjøen.",
     "availLabel": "Tilgjengelighet",
     "availState": "Klar for rotasjon",
-    "availLede": "GSK gyldig til 03/2030, offshore helseattest gyldig til 03/2028. Kan mobiliseres på kort varsel."
+    "availLede": "GSK gyldig til 03/2030, offshore helseattest gyldig til 03/2028. Kan mobiliseres på kort varsel.",
+    "linkedinLabel": "LinkedIn",
+    "linkedinLede": "Arbeidshistorikk, anbefalinger og felles kontakter."
   },
   "tools": {
     "kicker": "Verktøy",
@@ -209,8 +212,39 @@
     "title": "Curriculum Vitae.",
     "body": "Les hele CV-en direkte i nettleseren — ingen nedlasting nødvendig. Bruk språkvelgeren øverst for å bytte mellom engelsk og norsk.",
     "download": "Last ned PDF",
-    "fallback": "Hvis forhåndsvisningen ikke laster,",
-    "openInNewTab": "åpne PDF-en i ny fane."
+    "print": "Skriv ut",
+    "openPdf": "Åpne PDF-versjon",
+    "fullName": "Bruno Bernardo Rossigneux de Oliveira Bueno",
+    "profileLead": "Jeg har et sterkt sikkerhetsfokus og presterer godt i fysisk og mentalt krevende miljøer.",
+    "profileEmphasis": "Dedikert, lærer raskt, alltid fokusert på å bli bedre.",
+    "profileTail": "Komfortabel med å jobbe under press og følge prosedyrer — ser etter en mulighet til å lære og utvikle meg i en bransje jeg er dypt fascinert av.",
+    "target": "Dekksarbeider / Roustabout",
+    "certAvailable": "Kursbevis tilgjengelig på forespørsel.",
+    "sections": {
+      "certifications": "Offshore-sertifiseringer",
+      "safetyEmergency": "Sikkerhet & nødrespons",
+      "liftingRigging": "Løft & rigging",
+      "additionalTraining": "Tilleggsstudium",
+      "personal": "Personlig",
+      "languages": "Språk",
+      "references": "Referanser",
+      "experience": "Arbeidserfaring",
+      "education": "Utdanning",
+      "projects": "Prosjekter & egenstudium"
+    },
+    "personal": {
+      "dob": { "label": "Fødselsdato", "value": "30.05.1995" },
+      "nationality": { "label": "Nasjonalitet", "value": "Brasiliansk · Bosatt i Norge siden 2021" },
+      "address": { "label": "Adresse", "value": "Malmgrenveien 1A, 3292 Stavern, Norge" },
+      "licence": { "label": "Førerkort", "value": "Klasse B" },
+      "height": { "label": "Høyde", "value": "1,80 m" },
+      "weight": { "label": "Vekt", "value": "78 kg" }
+    },
+    "references": {
+      "ref1": { "name": "Christopher Johansen", "role": "Teknisk Leder · Proweb AS" },
+      "ref2": { "name": "Gunnar Horn", "role": "Eier · Sandefjord Dykkerskole" },
+      "ref3": { "name": "Daniel Visnovsky", "role": "Course Director & Eier · Lofoten Diving" }
+    }
   },
   "projects": {
     "learnMore": "Les mer →",

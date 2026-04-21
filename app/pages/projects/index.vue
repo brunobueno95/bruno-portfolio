@@ -26,14 +26,12 @@ const { projects: tools } = useProjects()
           class="grid items-start gap-10 border-t border-slate-200 pt-10 md:grid-cols-5"
         >
           <div :class="idx % 2 === 0 ? 'md:col-span-3' : 'md:col-span-3 md:order-2'">
-            <div class="overflow-hidden rounded-sm border border-slate-200 bg-slate-100">
-              <NuxtImg
-                :src="t.image"
-                :alt="t.title"
-                class="aspect-[4/3] w-full object-cover"
-                loading="lazy"
-              />
-            </div>
+            <SmartImage
+              :src="t.image"
+              :alt="t.title"
+              loading="lazy"
+              class="aspect-[4/3] w-full rounded-sm border border-slate-200"
+            />
           </div>
           <div :class="idx % 2 === 0 ? 'md:col-span-2' : 'md:col-span-2 md:order-1'">
             <p class="text-[11px] uppercase tracking-[0.25em] text-slate-500">

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { locale } = useI18n()
+const localePath = useLocalePath()
 const cvHref = computed(() =>
   locale.value === 'no' ? '/cv/norwegian-cv.pdf' : '/cv/english-cv.pdf'
 )
@@ -25,10 +26,10 @@ const languages = ['portuguese', 'english', 'norwegian', 'spanish']
     <!-- Portrait + bio -->
     <section class="mx-auto grid max-w-6xl gap-12 px-6 md:grid-cols-5">
       <div class="md:col-span-2">
-        <NuxtImg
+        <SmartImage
           src="/images/about-bruno.jpg"
           alt="Bruno Bueno"
-          class="aspect-[3/4] w-full object-cover rounded-sm border border-slate-200"
+          class="aspect-[3/4] w-full rounded-sm border border-slate-200"
         />
       </div>
       <div class="space-y-6 leading-relaxed text-slate-700 md:col-span-3">
@@ -127,13 +128,21 @@ const languages = ['portuguese', 'english', 'norwegian', 'spanish']
             {{ $t('about.cvBox.lede') }}
           </p>
         </div>
-        <a
-          :href="cvHref"
-          :download="`bruno-bueno-cv-${locale}.pdf`"
-          class="bg-black px-6 py-3 text-sm font-medium text-white hover:bg-neutral-800"
-        >
-          {{ $t('about.cvBox.button') }}
-        </a>
+        <div class="flex flex-wrap items-center gap-3">
+          <a
+            :href="cvHref"
+            :download="`bruno-bueno-cv-${locale}.pdf`"
+            class="bg-black px-6 py-3 text-sm font-medium text-white hover:bg-neutral-800"
+          >
+            {{ $t('about.cvBox.button') }}
+          </a>
+          <NuxtLink
+            :to="localePath('/cv')"
+            class="border border-slate-900 px-6 py-3 text-sm font-medium text-slate-900 hover:bg-slate-900 hover:text-white"
+          >
+            {{ $t('about.cvBox.view') }}
+          </NuxtLink>
+        </div>
       </div>
     </section>
   </div>

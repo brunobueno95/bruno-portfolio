@@ -91,11 +91,12 @@ const statusLabel = (status: CertStatus) =>
             </NuxtLink>
           </div>
           <div class="md:col-span-2">
-            <NuxtImg
+            <SmartImage
               src="/images/bruno.jpg"
               alt="Bruno Bueno"
-              class="aspect-[3/4] w-full object-cover rounded-sm shadow-2xl"
               loading="eager"
+              class="aspect-[3/4] w-full rounded-sm shadow-2xl"
+              skeleton-class="bg-gradient-to-br from-neutral-800 via-neutral-700 to-neutral-800"
             />
           </div>
         </div>
@@ -226,14 +227,13 @@ const statusLabel = (status: CertStatus) =>
             :to="localePath('/projects')"
             class="group block"
           >
-            <div class="overflow-hidden rounded-sm border border-slate-200 bg-slate-100">
-              <NuxtImg
-                :src="tool.image"
-                :alt="tool.title"
-                class="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
-                loading="lazy"
-              />
-            </div>
+            <SmartImage
+              :src="tool.image"
+              :alt="tool.title"
+              loading="lazy"
+              class="aspect-[4/3] w-full rounded-sm border border-slate-200"
+              inner-class="group-hover:scale-[1.02]"
+            />
             <p class="mt-4 text-[11px] uppercase tracking-[0.25em] text-slate-500">
               {{ tool.year }}
             </p>

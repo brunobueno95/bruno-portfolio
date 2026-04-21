@@ -122,7 +122,8 @@
       "kicker": "Full résumé",
       "title": "Download the CV (PDF).",
       "lede": "The long-form record — certifications, dates, organisations.",
-      "button": "Download CV"
+      "button": "Download CV",
+      "view": "View in browser"
     }
   },
   "experience": {
@@ -194,7 +195,9 @@
     "basedLede": "Central European Time. Mobilisation radius: Norwegian shelf and wider North Sea.",
     "availLabel": "Availability",
     "availState": "Ready for rotation",
-    "availLede": "GSK valid to 03/2030, offshore medical valid to 03/2028. Able to mobilise on short notice."
+    "availLede": "GSK valid to 03/2030, offshore medical valid to 03/2028. Able to mobilise on short notice.",
+    "linkedinLabel": "LinkedIn",
+    "linkedinLede": "Work history, endorsements and mutual connections."
   },
   "tools": {
     "kicker": "Tools",
@@ -209,8 +212,39 @@
     "title": "Curriculum Vitae.",
     "body": "Read the full résumé straight in the browser — no download required. Use the language switcher at the top to toggle between English and Norwegian.",
     "download": "Download PDF",
-    "fallback": "If the preview does not load,",
-    "openInNewTab": "open the PDF in a new tab."
+    "print": "Print",
+    "openPdf": "Open PDF version",
+    "fullName": "Bruno Bernardo Rossigneux de Oliveira Bueno",
+    "profileLead": "I have a strong safety mindset and perform well in physically and mentally demanding environments.",
+    "profileEmphasis": "Dedicated, fast learner, always focused on improving.",
+    "profileTail": "Comfortable working under pressure and following procedures — looking for an opportunity to learn and grow in an industry that I'm fascinated about.",
+    "target": "Roustabout / Deck Operator",
+    "certAvailable": "Certificates available on request.",
+    "sections": {
+      "certifications": "Offshore Certifications",
+      "safetyEmergency": "Safety & Emergency",
+      "liftingRigging": "Lifting & Rigging",
+      "additionalTraining": "Additional Training",
+      "personal": "Personal",
+      "languages": "Languages",
+      "references": "References",
+      "experience": "Work Experience",
+      "education": "Education",
+      "projects": "Projects & Self-Study"
+    },
+    "personal": {
+      "dob": { "label": "Date of Birth", "value": "30.05.1995" },
+      "nationality": { "label": "Nationality", "value": "Brazilian · Norwegian resident since 2021" },
+      "address": { "label": "Address", "value": "Malmgrenveien 1A, 3292 Stavern, Norway" },
+      "licence": { "label": "Driver's licence", "value": "Class B" },
+      "height": { "label": "Height", "value": "1.80 m" },
+      "weight": { "label": "Weight", "value": "78 kg" }
+    },
+    "references": {
+      "ref1": { "name": "Christopher Johansen", "role": "Technical Manager · Proweb AS" },
+      "ref2": { "name": "Gunnar Horn", "role": "Owner · Sandefjord Dykkerskole" },
+      "ref3": { "name": "Daniel Visnovsky", "role": "Course Director & Owner · Lofoten Diving" }
+    }
   },
   "projects": {
     "learnMore": "Learn more →",
