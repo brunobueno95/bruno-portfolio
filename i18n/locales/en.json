@@ -15,7 +15,194 @@
       "ctaCv": "Download CV (PDF)",
       "ctaCvView": "or view in browser →",
       "ctaContact": "Contact"
+    },
+    "certs": {
+      "kicker": "Certifications",
+      "title": "Offshore credentials.",
+      "lede": "Course certificates and cert cards shown in full below each entry.",
+      "scheduled": "Scheduled",
+      "placeholderLabel": "Certificate — {short}",
+      "openPdf": "{short} — open PDF",
+      "additionalTraining": "Additional training",
+      "additionalNote": "Certificates available on request."
+    },
+    "also": {
+      "kicker": "Also",
+      "title1": "Builds the tools",
+      "title2": "I train with.",
+      "body1": "Software developer at Proweb AS before transitioning into offshore work — still building, just for a different set of problems now. The tools below support my own offshore preparation: a simulator for overhead-crane lifts, a drilling operations trainer, a rigging route planner, and an AI pipeline that turns NORSOK, IWCF and IADC material into structured study content.",
+      "body2": "On deck that translates to fast learning, comfort with written procedures, and the habit of turning thick technical material into something a crew can actually use. An asset that comes with, not instead of.",
+      "seeAll": "See all tools →"
+    },
+    "background": {
+      "kicker": "Background",
+      "title": "Transferable experience.",
+      "fullHistory": "Full history →",
+      "divingLabel": "Diving",
+      "divingLine": "1,000+ hours in open-water operations. PADI instructor work across Norway, Philippines, Mexico, Brazil and Honduras — gear checks, briefings and calm decisions under pressure.",
+      "languagesLabel": "Languages",
+      "languagesLine": "Portuguese (native), English (fluent), Norwegian (B2), Spanish.",
+      "internationalLabel": "International",
+      "internationalLine": "Lived and worked across five countries. Used to mixed-nationality crews, strict safety procedures, and long working days in remote locations."
+    },
+    "tertiary": {
+      "aboutKicker": "About",
+      "aboutLink": "Background and experience →",
+      "contactKicker": "Contact",
+      "contactLink": "Availability and reach →"
     }
+  },
+  "certifications": {
+    "GSK": {
+      "name": "GSK — Basic Safety Course Offshore",
+      "description": "RSS-20756. Norwegian offshore basic safety — sea survival, fire, first aid and HUET. Valid 03/2030."
+    },
+    "Helseattest": {
+      "name": "Offshore Medical Certificate",
+      "description": "Norwegian offshore medical certificate (Helseattest). Valid 03/2028."
+    },
+    "G11": {
+      "name": "G11 — Lifting Equipment (Løfteredskap)",
+      "description": "Rigging and signalling for lifting operations — slings, shackles and lifting gear."
+    },
+    "NOG113": {
+      "name": "NOG 113 / NS 9610 — Fall Protection Offshore",
+      "description": "Norwegian Oil & Gas standard for working at height, harness use and rescue."
+    },
+    "Rigger": {
+      "name": "Rigger Course (P-2.4 / P-4.4)",
+      "description": "Specialist rigger training covering lift planning, load handling and signalling."
+    },
+    "G4": {
+      "name": "G4 — Bridge and Overhead Crane",
+      "description": "Operator certificate for bridge and overhead (travers) cranes."
+    },
+    "G20": {
+      "name": "G20 — Hydraulic Crane",
+      "description": "Hydraulic crane operator certificate. Course scheduled 15.05.2026."
+    },
+    "Truck": {
+      "name": "Truck Operator T1 / T2 / T3 / T4",
+      "description": "Certified forklift operator across classes T1 through T4."
+    }
+  },
+  "additionalTraining": {
+    "iwcf": "IWCF Level 1 — Drilling Fundamentals",
+    "wocrm": "WOCRM — Well Operations Crew Resource Management",
+    "rigPass": "Rig Pass — IADC",
+    "wcat": "Well Control Awareness Training — IADC"
+  },
+  "about": {
+    "kicker": "About",
+    "title1": "Born in Brazil,",
+    "title2": "based in Stavern.",
+    "bio1": {
+      "text": "Diving gave me the foundation: {strong} across Norway, the Philippines, Mexico, Brazil and Honduras. Safety and situation awareness became an instinct — gear checks, buddy protocols, decisions that matter. That translates directly to deck work.",
+      "strong": "1,000+ dives as a PADI and CMAS instructor"
+    },
+    "bio2": {
+      "text": "Three years in software taught me problem-solving under pressure, how to read documentation and learn fast new systems. {strong} as rigs get more instrumented and data-driven.",
+      "strong": "Computer literacy is only going to matter more offshore, not less,"
+    },
+    "bio3": {
+      "text": "Offshore is where I want to be. {strong} Norwegian oil and gas built a lot of what makes this country great, and I want to contribute to it directly.",
+      "strong": "Physical work with real stakes. Mental challenges that build strength. A team you depend on and who depends on you."
+    },
+    "bio4": {
+      "text": "Certifications in hand: {strong} scheduled for 15 May 2026. Available to mobilise.",
+      "strong": "GSK, G11, NOG 113 Fallsikring, Riggerkurs, G4 Traverskran, Truck T1–T2–T3–T4. G20 Hydraulisk Kran"
+    },
+    "experienceKicker": "Experience",
+    "experienceTitle": "Work history.",
+    "educationKicker": "Education",
+    "educationTitle": "Studies.",
+    "languagesKicker": "Languages",
+    "languagesTitle": "What I speak.",
+    "cvBox": {
+      "kicker": "Full résumé",
+      "title": "Download the CV (PDF).",
+      "lede": "The long-form record — certifications, dates, organisations.",
+      "button": "Download CV"
+    }
+  },
+  "experience": {
+    "proweb": {
+      "period": "Nov 2023 – May 2026",
+      "role": "Software Developer",
+      "org": "Proweb AS (Webson), Larvik. Full-time. Structured problem-solving, disciplined with procedures and written documentation. Strong computer literacy — adapt quickly to new control systems and digital tools.",
+      "location": "Stokke, NO"
+    },
+    "sastech": {
+      "period": "Feb 2023 – Sep 2023",
+      "role": "Software Developer — Internship",
+      "org": "SASTECH AS, Larvik.",
+      "location": "Larvik, NO"
+    },
+    "dive": {
+      "period": "Jan 2017 – Aug 2024",
+      "role": "Dive Operations — Instructor & Team Lead",
+      "org": "1,000+ hours in open-water operations across multiple dive centres. Team leadership under pressure — briefings, risk assessments, pre-operation checks, buddy-check protocols. Emergency first response instructor and oxygen provider.",
+      "location": "Norway · Philippines · Mexico · Brazil · Honduras"
+    }
+  },
+  "education": {
+    "getAcademy": {
+      "period": "May 2022 – Feb 2023",
+      "title": "Full Stack Web Developer Course",
+      "org": "GET Academy, Larvik"
+    },
+    "padi": {
+      "period": "Jan 2017 – Apr 2017",
+      "title": "PADI Open Water Scuba Instructor Course and Internship",
+      "org": "Roatan Dive Center, Honduras"
+    },
+    "highSchool": {
+      "period": "2012",
+      "title": "High School",
+      "org": "Colégio pH, Rio de Janeiro, Brazil"
+    }
+  },
+  "languages": {
+    "portuguese": {
+      "name": "Portuguese",
+      "level": "Native"
+    },
+    "english": {
+      "name": "English",
+      "level": "Fluent"
+    },
+    "norwegian": {
+      "name": "Norwegian",
+      "level": "B2"
+    },
+    "spanish": {
+      "name": "Spanish",
+      "level": "Conversational"
+    }
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title1": "Availability and",
+    "title2": "direct reach.",
+    "body": "Enquiries for offshore deck, rigger and crane-operator positions welcome — rotation, day-rate or longer hitches. I reply within a working day, same day during Norwegian office hours. For time-sensitive mobilisations, phone is faster than email.",
+    "emailLabel": "Email",
+    "emailLede": "Role descriptions, rotation details, CV requests.",
+    "phoneLabel": "Phone",
+    "phoneLede": "7am to 8pm preferred.",
+    "basedLabel": "Based in",
+    "basedPlace": "Stavern, Norway",
+    "basedLede": "Central European Time. Mobilisation radius: Norwegian shelf and wider North Sea.",
+    "availLabel": "Availability",
+    "availState": "Ready for rotation",
+    "availLede": "GSK valid to 03/2030, offshore medical valid to 03/2028. Able to mobilise on short notice."
+  },
+  "tools": {
+    "kicker": "Tools",
+    "title1": "Tools I built for",
+    "title2": "my offshore transition.",
+    "lede": "Four tools built during the move from software into offshore work. Not portfolio pieces — they're the scaffolding I used to study, drill and keep the certification timeline honest. Each one solved a real problem in preparation and stuck around because it kept solving it.",
+    "backPrefix": "The primary offer is offshore work.",
+    "backLink": "See the certifications →"
   },
   "cv": {
     "kicker": "CV",
@@ -24,5 +211,88 @@
     "download": "Download PDF",
     "fallback": "If the preview does not load,",
     "openInNewTab": "open the PDF in a new tab."
+  },
+  "projects": {
+    "learnMore": "Learn more →",
+    "back": "All tools",
+    "backHint": "Press Esc to go back",
+    "viewLive": "View live version",
+    "liveComingSoon": "Live demo — coming soon",
+    "overview": "Overview",
+    "whatItTaught": "What it taught me",
+    "keyDetails": "Key details",
+    "items": {
+      "overhead-crane-simulator": {
+        "title": "Overhead-crane rig simulator",
+        "blurb": "Training simulator for overhead and travelling cranes — lift planning, signalling and load-handling drills built for my own G4 preparation.",
+        "what": "Training simulator for bridge and overhead (travers) cranes. Lift planning, signalling and load-handling drills run against a virtual rig — built to reinforce G4 material with scenario repetition.",
+        "taught": "Building the physics and signalling logic forced me to understand the failure modes, not just the procedure steps. Mistakes in the sim are cheap — that is exactly what makes them useful.",
+        "overview": [
+          "Browser-based simulator built as preparation for the G4 bridge and overhead crane certification. Covers the parts of the operator curriculum that book study tends to miss — the timing, the signalling, and the judgement calls under load.",
+          "Scenarios range from routine pick-and-place lifts to edge cases: suspended load hand-off, obstructed paths, wind loading on an outdoor bay. Each scenario has a correct operator response and a few wrong ones with visible consequences."
+        ],
+        "highlights": [
+          "Scenario engine with a mix of routine and edge-case lifts",
+          "Load swing, wind and boom-deflection physics",
+          "Signalling practice with visual cues and voice prompts",
+          "Rigging plan validation against standard lift rules"
+        ]
+      },
+      "drilling-operations-trainer": {
+        "title": "Drilling operations trainer",
+        "blurb": "Scenario-based trainer covering well-control fundamentals and drilling-floor procedures. Built to reinforce IWCF and WOCRM material.",
+        "what": "Scenario-based trainer covering drilling-floor procedures and well-control fundamentals. Built to reinforce IWCF Level 1, WOCRM and IADC Rig Pass / Well Control Awareness material with repetition.",
+        "taught": "Turning passive reading into active decision-making under time pressure changed how the material landed. I remember the scenarios; the definitions followed.",
+        "overview": [
+          "Drilling-floor and well-control trainer built around the IWCF Level 1 curriculum, WOCRM principles and IADC Rig Pass / Well Control Awareness material. Drills present situations rather than definitions, then ask for the decision under simulated time pressure.",
+          "Wrong answers branch into consequence paths so the penalty for a poor call is visible, not abstract. Right answers chain into the next stage of the scenario."
+        ],
+        "highlights": [
+          "Curriculum mapped to IWCF L1 and WOCRM outcomes",
+          "Decision-point scenarios: kick detection, shut-in, circulation",
+          "Consequence paths for wrong answers",
+          "Knowledge checks between modules with spaced repetition"
+        ]
+      },
+      "rigging-route-planner": {
+        "title": "Rigging route planner",
+        "blurb": "Lay out the rigging path for a lift: anchor points, sling geometry, exclusion zones and load path — checked against the rules I was drilling on.",
+        "what": "Plan a lift end-to-end: anchor points, sling geometry, load path and exclusion zones — checked against the rigging rules I was drilling on. Sits alongside the crane simulator as the \"plan it\" step before the \"do it\" step.",
+        "taught": "The planner made me argue every choice out loud before the lift. By the time you press go the justification is already in your head — which is where it needs to be when a supervisor asks.",
+        "overview": [
+          "Interactive planner for rigging a lift from scratch. Set the load, pick the slings and shackles, place the anchor points, then draw the load path. The planner calculates sling angles and capacities and flags anything that fails against G11 / NS 9610.",
+          "Designed to work as the preparation step before the crane simulator — you plan the lift here, then execute it there. If the plan is wrong, the sim shows you why."
+        ],
+        "highlights": [
+          "Interactive lift setup with load, rigging hardware and obstacles",
+          "Automatic sling angle and capacity calculations",
+          "Load path visualisation with exclusion zones",
+          "Rule checks aligned with G11 and NS 9610 standards"
+        ]
+      },
+      "offshore-knowledge-pipeline": {
+        "title": "Offshore knowledge pipeline",
+        "blurb": "Autonomous AI pipeline that curates NORSOK, IWCF and IADC material into a structured vault, then generates study guides, quizzes and exams.",
+        "what": "Autonomous AI pipeline that curates offshore domain knowledge (NORSOK, IWCF, IADC) into a structured vault, then generates study guides, quizzes and exams from it.",
+        "taught": "Shaping raw standards into tight, exam-shaped questions forced me to internalise the material far more than reading ever did. Also a lesson in keeping the source of truth auditable.",
+        "overview": [
+          "The ground-truth layer behind the other three tools. An autonomous pipeline ingests NORSOK standards, the IWCF curriculum and IADC Rig Pass / Well Control material, then normalises everything into a structured vault with versioned citations back to source.",
+          "Study guides, quizzes and practice exams are generated from the vault on demand, weighted by topic so a weak area gets more repetition. Every generated question carries a pointer back to the source paragraph it came from — auditable, not hallucinated."
+        ],
+        "highlights": [
+          "Source-ingested pipeline for NORSOK, IWCF and IADC material",
+          "Structured vault with per-fact source citations",
+          "Auto-generated study guides per topic",
+          "Practice exam generator with weighted topic coverage",
+          "Feeds the other three tools with ground-truth content"
+        ]
+      }
+    }
+  },
+  "footer": {
+    "byline": "Offshore deck, rigger and crane-operator candidate. Norwegian shelf — ready for rotation.",
+    "site": "Site",
+    "direct": "Direct",
+    "location": "Stavern · Norway"
   }
 }

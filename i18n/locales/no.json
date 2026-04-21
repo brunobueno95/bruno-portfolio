@@ -15,7 +15,194 @@
       "ctaCv": "Last ned CV (PDF)",
       "ctaCvView": "eller les i nettleseren →",
       "ctaContact": "Kontakt"
+    },
+    "certs": {
+      "kicker": "Sertifiseringer",
+      "title": "Offshore-kvalifikasjoner.",
+      "lede": "Kursbevis og sertifikatkort vises i sin helhet under hver oppføring.",
+      "scheduled": "Planlagt",
+      "placeholderLabel": "Sertifikat — {short}",
+      "openPdf": "{short} — åpne PDF",
+      "additionalTraining": "Tilleggsstudium",
+      "additionalNote": "Kursbevis tilgjengelig på forespørsel."
+    },
+    "also": {
+      "kicker": "Dessuten",
+      "title1": "Bygger verktøyene",
+      "title2": "jeg trener med.",
+      "body1": "Softwareutvikler hos Proweb AS før overgangen til offshore — fortsatt bygger, bare for et annet sett med problemer nå. Verktøyene under støtter min egen offshore-forberedelse: en simulator for traverskran-løft, en boreoperasjonstrener, en riggerrute-planlegger, og en AI-pipeline som gjør NORSOK-, IWCF- og IADC-materiale til strukturert studieinnhold.",
+      "body2": "På dekk betyr det rask læring, komfort med skriftlige prosedyrer, og vanen med å gjøre tykt teknisk materiale om til noe et mannskap faktisk kan bruke. En ressurs som kommer i tillegg, ikke i stedet for.",
+      "seeAll": "Se alle verktøy →"
+    },
+    "background": {
+      "kicker": "Bakgrunn",
+      "title": "Overførbar erfaring.",
+      "fullHistory": "Full historikk →",
+      "divingLabel": "Dykking",
+      "divingLine": "1 000+ timer i åpen-sjø-operasjoner. PADI-instruktørarbeid i Norge, Filippinene, Mexico, Brasil og Honduras — utstyrskontroll, briefinger og rolige beslutninger under press.",
+      "languagesLabel": "Språk",
+      "languagesLine": "Portugisisk (morsmål), engelsk (flytende), norsk (B2), spansk.",
+      "internationalLabel": "Internasjonalt",
+      "internationalLine": "Bodd og jobbet i fem land. Vant til multinasjonale mannskap, strenge sikkerhetsprosedyrer og lange arbeidsdager på avsidesliggende steder."
+    },
+    "tertiary": {
+      "aboutKicker": "Om",
+      "aboutLink": "Bakgrunn og erfaring →",
+      "contactKicker": "Kontakt",
+      "contactLink": "Tilgjengelighet og kontakt →"
     }
+  },
+  "certifications": {
+    "GSK": {
+      "name": "GSK — Grunnleggende sikkerhetskurs offshore",
+      "description": "RSS-20756. Norsk grunnleggende sikkerhet offshore — sjøoverlevelse, brann, førstehjelp og HUET. Gyldig 03/2030."
+    },
+    "Helseattest": {
+      "name": "Helseattest sjøfolk/offshore",
+      "description": "Norsk offshore helseattest. Gyldig 03/2028."
+    },
+    "G11": {
+      "name": "G11 — Løfteredskap",
+      "description": "Rigging og signalgivning for løfteoperasjoner — stropper, sjakler og løfteutstyr."
+    },
+    "NOG113": {
+      "name": "NOG 113 / NS 9610 — Fallsikring offshore",
+      "description": "Norsk olje og gass-standard for arbeid i høyden, selebruk og redning."
+    },
+    "Rigger": {
+      "name": "Riggerkurs (P-2.4 / P-4.4)",
+      "description": "Spesialistrigger-opplæring som dekker løfteplanlegging, lasthåndtering og signalgivning."
+    },
+    "G4": {
+      "name": "G4 — Bro- og traverskran",
+      "description": "Operatørsertifikat for bro- og traverskran."
+    },
+    "G20": {
+      "name": "G20 — Hydraulisk kran",
+      "description": "Operatørsertifikat for hydraulisk kran. Kurs planlagt 15.05.2026."
+    },
+    "Truck": {
+      "name": "Truckførerkurs T1 / T2 / T3 / T4",
+      "description": "Sertifisert truckfører på klasse T1 til T4."
+    }
+  },
+  "additionalTraining": {
+    "iwcf": "IWCF Level 1 — Grunnleggende boring",
+    "wocrm": "WOCRM — Well Operations Crew Resource Management",
+    "rigPass": "Rig Pass — IADC",
+    "wcat": "Well Control Awareness Training — IADC"
+  },
+  "about": {
+    "kicker": "Om",
+    "title1": "Født i Brasil,",
+    "title2": "bosatt i Stavern.",
+    "bio1": {
+      "text": "Dykkingen ga meg grunnlaget: {strong} i Norge, Filippinene, Mexico, Brasil og Honduras. Sikkerhet og situasjonsforståelse ble instinkt — utstyrskontroll, buddy-rutiner, beslutninger som teller. Det overføres direkte til dekksarbeid.",
+      "strong": "1 000+ dykk som PADI- og CMAS-instruktør"
+    },
+    "bio2": {
+      "text": "Tre år i software lærte meg problemløsning under press, hvordan lese dokumentasjon og raskt sette meg inn i nye systemer. {strong} etter hvert som riggene blir mer instrumenterte og datadrevne.",
+      "strong": "Datakyndighet kommer til å bety mer offshore, ikke mindre,"
+    },
+    "bio3": {
+      "text": "Offshore er der jeg vil være. {strong} Norsk olje og gass har bygget mye av det som gjør dette landet flott, og jeg vil bidra til det direkte.",
+      "strong": "Fysisk arbeid med reelle konsekvenser. Mentale utfordringer som bygger styrke. Et team du er avhengig av og som er avhengig av deg."
+    },
+    "bio4": {
+      "text": "Sertifiseringer i hende: {strong} planlagt 15. mai 2026. Tilgjengelig for mobilisering.",
+      "strong": "GSK, G11, NOG 113 Fallsikring, Riggerkurs, G4 Traverskran, Truck T1–T2–T3–T4. G20 Hydraulisk Kran"
+    },
+    "experienceKicker": "Erfaring",
+    "experienceTitle": "Arbeidshistorikk.",
+    "educationKicker": "Utdanning",
+    "educationTitle": "Studier.",
+    "languagesKicker": "Språk",
+    "languagesTitle": "Hva jeg snakker.",
+    "cvBox": {
+      "kicker": "Full CV",
+      "title": "Last ned CV-en (PDF).",
+      "lede": "Fullversjonen — sertifiseringer, datoer, organisasjoner.",
+      "button": "Last ned CV"
+    }
+  },
+  "experience": {
+    "proweb": {
+      "period": "Nov 2023 – Mai 2026",
+      "role": "Softwareutvikler",
+      "org": "Proweb AS (Webson), Larvik. Fulltid. Strukturert problemløsning, disiplinert med prosedyrer og skriftlig dokumentasjon. Høy datakyndighet — tilpasser meg raskt til nye kontrollsystemer og digitale verktøy.",
+      "location": "Stokke, NO"
+    },
+    "sastech": {
+      "period": "Feb 2023 – Sep 2023",
+      "role": "Softwareutvikler — praksis",
+      "org": "SASTECH AS, Larvik.",
+      "location": "Larvik, NO"
+    },
+    "dive": {
+      "period": "Jan 2017 – Aug 2024",
+      "role": "Dykkeoperasjoner — instruktør og teamleder",
+      "org": "1 000+ timer i åpen-sjø-operasjoner på tvers av flere dykkesentre. Teamledelse under press — briefinger, risikovurderinger, pre-operasjonskontroller, buddy-check-prosedyrer. Instruktør i førstehjelp og oksygenadministrering.",
+      "location": "Norge · Filippinene · Mexico · Brasil · Honduras"
+    }
+  },
+  "education": {
+    "getAcademy": {
+      "period": "Mai 2022 – Feb 2023",
+      "title": "Full Stack Web Developer-kurs",
+      "org": "GET Academy, Larvik"
+    },
+    "padi": {
+      "period": "Jan 2017 – Apr 2017",
+      "title": "PADI Open Water Scuba Instructor-kurs og praksis",
+      "org": "Roatan Dive Center, Honduras"
+    },
+    "highSchool": {
+      "period": "2012",
+      "title": "Videregående skole",
+      "org": "Colégio pH, Rio de Janeiro, Brasil"
+    }
+  },
+  "languages": {
+    "portuguese": {
+      "name": "Portugisisk",
+      "level": "Morsmål"
+    },
+    "english": {
+      "name": "Engelsk",
+      "level": "Flytende"
+    },
+    "norwegian": {
+      "name": "Norsk",
+      "level": "B2"
+    },
+    "spanish": {
+      "name": "Spansk",
+      "level": "Samtale"
+    }
+  },
+  "contact": {
+    "kicker": "Kontakt",
+    "title1": "Tilgjengelighet og",
+    "title2": "direkte kontakt.",
+    "body": "Henvendelser om offshore dekk-, rigger- og kranfører-stillinger er velkomne — rotasjon, dagrate eller lengre oppdrag. Jeg svarer innen én arbeidsdag, samme dag i norsk arbeidstid. For hastemobiliseringer er telefon raskere enn e-post.",
+    "emailLabel": "E-post",
+    "emailLede": "Stillingsbeskrivelser, rotasjonsdetaljer, CV-forespørsler.",
+    "phoneLabel": "Telefon",
+    "phoneLede": "Kl. 07–20 foretrukket.",
+    "basedLabel": "Bosatt i",
+    "basedPlace": "Stavern, Norge",
+    "basedLede": "Sentraleuropeisk tid. Mobiliseringsradius: norsk sokkel og Nordsjøen.",
+    "availLabel": "Tilgjengelighet",
+    "availState": "Klar for rotasjon",
+    "availLede": "GSK gyldig til 03/2030, offshore helseattest gyldig til 03/2028. Kan mobiliseres på kort varsel."
+  },
+  "tools": {
+    "kicker": "Verktøy",
+    "title1": "Verktøy jeg har bygd",
+    "title2": "for overgangen til offshore.",
+    "lede": "Fire verktøy bygd under overgangen fra software til offshore-arbeid. Ikke porteføljearbeider — de er stillaset jeg brukte for å studere, øve og holde sertifiseringsløpet på sporet. Hvert verktøy løste et reelt problem i forberedelsen og ble hengende fordi det fortsatte å løse det.",
+    "backPrefix": "Hovedtilbudet er offshore-arbeid.",
+    "backLink": "Se sertifiseringene →"
   },
   "cv": {
     "kicker": "CV",
@@ -24,5 +211,88 @@
     "download": "Last ned PDF",
     "fallback": "Hvis forhåndsvisningen ikke laster,",
     "openInNewTab": "åpne PDF-en i ny fane."
+  },
+  "projects": {
+    "learnMore": "Les mer →",
+    "back": "Alle verktøy",
+    "backHint": "Trykk Esc for å gå tilbake",
+    "viewLive": "Se live versjon",
+    "liveComingSoon": "Live-demo — kommer snart",
+    "overview": "Oversikt",
+    "whatItTaught": "Hva det lærte meg",
+    "keyDetails": "Detaljer",
+    "items": {
+      "overhead-crane-simulator": {
+        "title": "Traverskran-simulator",
+        "blurb": "Treningssimulator for bro- og traverskraner — løfteplanlegging, signalgivning og lasthåndtering bygget for min egen G4-forberedelse.",
+        "what": "Treningssimulator for bro- og traverskraner. Løfteplanlegging, signalgivning og lasthåndtering mot en virtuell rigg — bygget for å forsterke G4-materialet med scenario-repetisjon.",
+        "taught": "Å bygge fysikken og signallogikken tvang meg til å forstå feilmodusene, ikke bare prosedyretrinnene. Feil i simulatoren er billige — det er nettopp det som gjør dem nyttige.",
+        "overview": [
+          "Nettleserbasert simulator bygd som forberedelse til G4-sertifisering for bro- og traverskran. Dekker delene av operatørpensumet bokstudier pleier å gå glipp av — timingen, signalgivningen og skjønnsvurderingene under last.",
+          "Scenarioene spenner fra rutinemessige løft til kanttilfeller: overføring av hengende last, blokkerte baner, vindlast på utendørsbås. Hvert scenario har ett korrekt operatørsvar og flere feil med synlige konsekvenser."
+        ],
+        "highlights": [
+          "Scenariomotor med en blanding av rutine- og kanttilfelle-løft",
+          "Lastsving, vind og bom-deflekterings-fysikk",
+          "Signalgivnings-øvelser med visuelle og lydmessige hint",
+          "Rigg-plan-validering mot standard løfteregler"
+        ]
+      },
+      "drilling-operations-trainer": {
+        "title": "Boreoperasjonstrener",
+        "blurb": "Scenario-basert trener som dekker well control-grunnleggende og boredekks-prosedyrer. Bygget for å forsterke IWCF- og WOCRM-materiale.",
+        "what": "Scenario-basert trener som dekker boredekks-prosedyrer og well control-grunnleggende. Bygget for å forsterke IWCF Level 1-, WOCRM- og IADC Rig Pass / Well Control Awareness-materiale med repetisjon.",
+        "taught": "Å gjøre passiv lesing om til aktiv beslutningstaking under tidspress endret hvordan stoffet festet seg. Jeg husker scenarioene; definisjonene fulgte etter.",
+        "overview": [
+          "Boredekk- og well control-trener bygget rundt IWCF Level 1-pensumet, WOCRM-prinsipper og IADC Rig Pass / Well Control Awareness-materiale. Øvelsene presenterer situasjoner i stedet for definisjoner, og ber om en beslutning under simulert tidspress.",
+          "Feil svar forgreiner seg til konsekvens-baner så straffen for en dårlig avgjørelse er synlig, ikke abstrakt. Riktige svar kjeder seg videre til neste steg i scenarioet."
+        ],
+        "highlights": [
+          "Pensum kartlagt mot IWCF L1- og WOCRM-læringsmål",
+          "Beslutningspunkt-scenarier: kick-deteksjon, shut-in, sirkulasjon",
+          "Konsekvens-baner for feil svar",
+          "Kunnskapssjekker mellom moduler med repetisjon"
+        ]
+      },
+      "rigging-route-planner": {
+        "title": "Riggerrute-planlegger",
+        "blurb": "Legg opp rigge-banen for et løft: festepunkter, stroppegeometri, eksklusjonssoner og lastbane — sjekket mot reglene jeg øvde på.",
+        "what": "Planlegg et løft fra start til slutt: festepunkter, stroppegeometri, lastbane og eksklusjonssoner — sjekket mot rigg-reglene jeg øvde på. Står ved siden av kran-simulatoren som \"planlegg det\"-steget før \"gjør det\"-steget.",
+        "taught": "Planleggeren fikk meg til å argumentere for hvert valg høyt før løftet. Når du trykker på start er begrunnelsen allerede i hodet — som er der den må være når en overordnet spør.",
+        "overview": [
+          "Interaktiv planlegger for å rigge et løft fra bunnen av. Still inn lasten, velg stropper og sjakler, plasser festepunkter, og tegn lastbanen. Planleggeren beregner stroppvinkler og kapasiteter og flagger alt som feiler mot G11 / NS 9610.",
+          "Designet til å fungere som forberedelsessteget før kran-simulatoren — du planlegger løftet her, så utfører det der. Hvis planen er feil, viser simulatoren deg hvorfor."
+        ],
+        "highlights": [
+          "Interaktivt løfteoppsett med last, riggeutstyr og hindringer",
+          "Automatiske stroppvinkel- og kapasitetsberegninger",
+          "Visualisering av lastbane med eksklusjonssoner",
+          "Regelsjekk i tråd med G11- og NS 9610-standarder"
+        ]
+      },
+      "offshore-knowledge-pipeline": {
+        "title": "Offshore kunnskapspipeline",
+        "blurb": "Autonom AI-pipeline som kurerer NORSOK-, IWCF- og IADC-materiale til et strukturert arkiv, og genererer studieveiledninger, quizer og eksamener.",
+        "what": "Autonom AI-pipeline som kurerer offshore-fagkunnskap (NORSOK, IWCF, IADC) inn i et strukturert arkiv, og genererer studieveiledninger, quizer og eksamener derfra.",
+        "taught": "Å forme rå standarder til stramme, eksamensformede spørsmål tvang meg til å internalisere stoffet langt mer enn lesing noen gang gjorde. Også en lekse i å holde sannhetskilden revisjonsbar.",
+        "overview": [
+          "Sannhetslaget bak de tre andre verktøyene. En autonom pipeline tar inn NORSOK-standarder, IWCF-pensumet og IADC Rig Pass / Well Control-materiale, og normaliserer alt inn i et strukturert arkiv med versjonerte henvisninger tilbake til kilden.",
+          "Studieveiledninger, quizer og øvelses-eksamener genereres fra arkivet på forespørsel, vektet etter tema slik at et svakt område får mer repetisjon. Hvert genererte spørsmål bærer en peker tilbake til kildeavsnittet det kom fra — revisjonsbart, ikke hallusinert."
+        ],
+        "highlights": [
+          "Kilde-basert pipeline for NORSOK-, IWCF- og IADC-materiale",
+          "Strukturert arkiv med per-fakta kildehenvisninger",
+          "Automatisk genererte studieveiledninger per tema",
+          "Øvelses-eksamen-generator med vektet temadekning",
+          "Mater de tre andre verktøyene med sannhetsgrunnlag"
+        ]
+      }
+    }
+  },
+  "footer": {
+    "byline": "Offshore dekk-, rigger- og kranfører-kandidat. Norsk sokkel — klar for rotasjon.",
+    "site": "Side",
+    "direct": "Direkte",
+    "location": "Stavern · Norge"
   }
 }
