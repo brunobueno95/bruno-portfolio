@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero -->
-    <section class="mx-auto max-w-6xl px-6 pt-20 pb-16">
+    <section class="mx-auto max-w-6xl px-6 pt-12 pb-16">
       <p class="text-[11px] uppercase tracking-[0.25em] text-slate-500">Contact</p>
       <h1 class="mt-6 text-4xl font-semibold leading-[1.1] tracking-tight md:text-6xl">
         Availability and
@@ -17,14 +17,14 @@
 
     <!-- Primary channels -->
     <section class="border-t border-slate-900">
-      <div class="mx-auto grid max-w-6xl gap-12 px-6 py-16 md:grid-cols-2">
+      <div class="mx-auto grid max-w-6xl gap-12 px-6 py-12 md:grid-cols-2">
         <div>
           <p class="text-[11px] uppercase tracking-[0.25em] text-slate-500">Email</p>
           <a
-            href="mailto:hello@example.com"
+            href="mailto:brunobernardobueno@gmail.com"
             class="mt-3 block text-2xl font-semibold tracking-tight hover:underline underline-offset-4 md:text-3xl"
           >
-            hello@example.com
+            brunobernardobueno@gmail.com
           </a>
           <p class="mt-3 text-sm text-slate-600">
             Role descriptions, rotation details, CV requests.
@@ -33,35 +33,21 @@
         <div>
           <p class="text-[11px] uppercase tracking-[0.25em] text-slate-500">Phone</p>
           <a
-            href="tel:+4700000000"
+            href="tel:+4741324823"
             class="mt-3 block text-2xl font-semibold tracking-tight hover:underline underline-offset-4 md:text-3xl"
           >
-            +47 000 00 000
+            +47 413 24 823
           </a>
           <p class="mt-3 text-sm text-slate-600">
-            Time-sensitive mobilisations. Norwegian working hours preferred.
+            7am to 8pm preferred.
           </p>
         </div>
       </div>
     </section>
 
     <!-- Supporting info -->
-    <section class="mx-auto max-w-6xl px-6 py-16">
-      <div class="grid gap-10 md:grid-cols-3">
-        <div class="border-t border-slate-200 pt-6">
-          <p class="text-[11px] uppercase tracking-[0.25em] text-slate-500">
-            LinkedIn
-          </p>
-          <a
-            href="#"
-            class="mt-3 block font-medium underline underline-offset-4"
-          >
-            linkedin.com/in/placeholder
-          </a>
-          <p class="mt-3 text-sm text-slate-600">
-            Full work history, recommendations and certifications — verified.
-          </p>
-        </div>
+    <section class="mx-auto max-w-6xl px-6 py-8">
+      <div class="grid gap-10 md:grid-cols-2">
         <div class="border-t border-slate-200 pt-6">
           <p class="text-[11px] uppercase tracking-[0.25em] text-slate-500">
             Based in
@@ -78,8 +64,8 @@
           </p>
           <p class="mt-3 font-medium">Ready for rotation</p>
           <p class="mt-3 text-sm text-slate-600">
-            Offshore medical 24 April. Available to mobilise immediately
-            thereafter.
+            GSK valid to 03/2030, offshore medical valid to 03/2028. Able
+            to mobilise on short notice.
           </p>
         </div>
       </div>

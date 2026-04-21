@@ -1,36 +1,60 @@
 <script setup lang="ts">
+const { locale } = useI18n()
+const cvHref = computed(() =>
+  locale.value === 'no' ? '/cv/norwegian-cv.pdf' : '/cv/english-cv.pdf'
+)
+
 const experience = [
   {
-    period: '2024 – present',
-    role: 'Offshore certification pipeline',
-    org: 'Self-directed. Norwegian offshore credentials (GSK incl. HUET, G4, G11, NOG 113, Truck T1–T4). Rigger course and offshore medical scheduled.',
-    location: 'Stavern, NO'
+    period: 'Nov 2023 – May 2026',
+    role: 'Software Developer',
+    org: 'Proweb AS (Webson), Larvik. Full-time. Structured problem-solving, disciplined with procedures and written documentation. Strong computer literacy — adapt quickly to new control systems and digital tools.',
+    location: 'Stokke, NO'
   },
   {
-    period: '2019 – 2024',
-    role: 'Independent software development',
-    org: 'Project-based client work, remote. Solo and small-team builds across multiple jurisdictions.',
-    location: 'Remote'
+    period: 'Feb 2023 – Sep 2023',
+    role: 'Software Developer — Internship',
+    org: 'SASTECH AS, Larvik.',
+    location: 'Larvik, NO'
   },
   {
-    period: '2012 – 2020',
-    role: 'PADI & CMAS dive instructor',
-    org: 'Teaching, guiding and safety briefings. 1,000+ logged dives. Gear checks, buddy protocols and dive-plan management.',
-    location: 'Five countries'
+    period: 'Jan 2017 – Jul 2023',
+    role: 'Dive Operations — Instructor & Team Lead',
+    org: '1,000+ hours in open-water operations across multiple dive centres. Team leadership under pressure — briefings, risk assessments, pre-operation checks, buddy-check protocols. Emergency first response instructor and oxygen provider.',
+    location: 'Norway · Philippines · Mexico · Brazil · Honduras'
+  }
+]
+
+const education = [
+  {
+    period: 'May 2022 – Feb 2023',
+    title: 'Full Stack Web Developer Course',
+    org: 'GET Academy, Larvik'
+  },
+  {
+    period: 'Jan 2017 – Apr 2017',
+    title: 'PADI Open Water Scuba Instructor Course and Internship',
+    org: 'Roatan Dive Center, Honduras'
+  },
+  {
+    period: '2012',
+    title: 'High School',
+    org: 'Colégio pH, Rio de Janeiro, Brazil'
   }
 ]
 
 const languages = [
   { name: 'Portuguese', level: 'Native' },
   { name: 'English', level: 'Fluent' },
-  { name: 'Norwegian', level: 'Working — in progress' }
+  { name: 'Norwegian', level: 'B2' },
+  { name: 'Spanish', level: 'Conversational' }
 ]
 </script>
 
 <template>
   <div>
     <!-- Hero -->
-    <section class="mx-auto max-w-6xl px-6 pt-20 pb-16">
+    <section class="mx-auto max-w-6xl px-6 pt-12 pb-16">
       <p class="text-[11px] uppercase tracking-[0.25em] text-slate-500">About</p>
       <h1 class="mt-6 text-4xl font-semibold leading-[1.1] tracking-tight md:text-6xl">
         Born in Brazil,
@@ -41,36 +65,26 @@ const languages = [
     <!-- Portrait + bio -->
     <section class="mx-auto grid max-w-6xl gap-12 px-6 md:grid-cols-5">
       <div class="md:col-span-2">
-        <ImagePlaceholder ratio="portrait" label="Portrait" />
+        <NuxtImg
+          src="/images/about-bruno.jpg"
+          alt="Bruno Bueno"
+          class="aspect-[3/4] w-full object-cover rounded-sm border border-slate-200"
+        />
       </div>
       <div class="space-y-6 leading-relaxed text-slate-700 md:col-span-3">
         <p>
-          The path into Norwegian offshore work came the long way round —
-          through diving, then software, now deck training. Each detour
-          taught me something I still use: the diving gave me safety at the
-          level of habit, the software taught me how to break thick
-          material into something usable.
+        
+Diving gave me the foundation: <strong> 1,000+ dives as a PADI and CMAS instructor</strong> across Norway, the Philippines, Mexico, Brazil and Honduras. Safety and situation awareness became an instict — gear checks, buddy protocols, decisions that matters. That translates directly to deck work. </p>
+<p>Three years in software taught me problem-solving under pressure and how to adapt fast when systems change. <strong>Computer literacy is only going to matter more offshore, not less,</strong> as rigs get more instrumented and data-driven.</p>
+<p>Offshore is where I want to be.<strong> Physical work with real stakes. Mental challenges that build strength. A team you depend on and who depends on you.</strong> Norwegian oil and gas built a lot of what makes this country great, and I want to contribute to it directly.</p>
+<p>Certifications in hand: <strong>GSK, G11, NOG 113 Fallsikring, Riggerkurs, G4 Traverskran, Truck T1–T2–T3–T4. G20 Hydraulisk Kran</strong> scheduled for 15 May 2026. Available to mobilise.
         </p>
-        <p>
-          Over a thousand logged dives and PADI / CMAS instructor work
-          across five countries built the foundation. Diving teaches safety
-          as muscle memory — gear checks before every dive, buddy
-          protocols, slow decisions at depth. It maps directly onto
-          offshore: same respect for procedure, same habit of checking
-          twice before acting.
-        </p>
-        <p>
-          The move to deck work is deliberate. Physical work, clear rules,
-          real stakes and a rotation I can plan around. The certifications
-          are in place or actively scheduled — the last pieces fall into
-          place over the coming weeks, and I'm ready to mobilise as soon
-          as the medical clears.
-        </p>
+     
       </div>
     </section>
 
     <!-- Experience -->
-    <section class="mx-auto max-w-6xl px-6 py-24">
+    <section class="mx-auto max-w-6xl px-6 pt-12 pb-6">
       <p class="text-[11px] uppercase tracking-[0.25em] text-slate-500">
         Experience
       </p>
@@ -93,15 +107,38 @@ const languages = [
       </ol>
     </section>
 
+    <!-- Education -->
+    <section class="mx-auto max-w-6xl px-6 py-8">
+      <p class="text-[11px] uppercase tracking-[0.25em] text-slate-500">
+        Education
+      </p>
+      <h2 class="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
+        Studies.
+      </h2>
+      <ol class="mt-10 divide-y divide-slate-200">
+        <li
+          v-for="ed in education"
+          :key="ed.title"
+          class="grid items-baseline gap-4 py-6 md:grid-cols-[160px_1fr]"
+        >
+          <span class="text-sm text-slate-500">{{ ed.period }}</span>
+          <div>
+            <h3 class="font-medium">{{ ed.title }}</h3>
+            <p class="mt-1 text-sm text-slate-600">{{ ed.org }}</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
     <!-- Languages -->
-    <section class="mx-auto max-w-6xl px-6 py-16">
+    <section class="mx-auto max-w-6xl px-6 py-8">
       <p class="text-[11px] uppercase tracking-[0.25em] text-slate-500">
         Languages
       </p>
       <h2 class="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
         What I speak.
       </h2>
-      <dl class="mt-8 grid gap-4 md:grid-cols-3">
+      <dl class="mt-8 grid gap-4 md:grid-cols-4">
         <div
           v-for="l in languages"
           :key="l.name"
@@ -128,7 +165,8 @@ const languages = [
           </p>
         </div>
         <a
-          href="/cv/"
+          :href="cvHref"
+          :download="`bruno-bueno-cv-${locale}.pdf`"
           class="bg-slate-900 px-6 py-3 text-sm font-medium text-white hover:bg-slate-700"
         >
           Download CV

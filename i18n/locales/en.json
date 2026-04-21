@@ -1,1 +1,28 @@
-{}
+{
+  "nav": {
+    "about": "About",
+    "tools": "Tools",
+    "cv": "CV",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "location": "Stavern · Norway",
+      "titleLead": "Roustabout &",
+      "titleMid": "deck operator",
+      "titleEnd": "— candidate.",
+      "body": "Strong safety mindset and fast learner. Comfortable working under pressure and following procedures. Looking for an opportunity to learn and grow on the Norwegian shelf — deck, roustabout, rigger or crane-operator positions. Based in Stavern, able to mobilise on short notice.",
+      "ctaCv": "Download CV (PDF)",
+      "ctaCvView": "or view in browser →",
+      "ctaContact": "Contact"
+    }
+  },
+  "cv": {
+    "kicker": "CV",
+    "title": "Curriculum Vitae.",
+    "body": "Read the full résumé straight in the browser — no download required. Use the language switcher at the top to toggle between English and Norwegian.",
+    "download": "Download PDF",
+    "fallback": "If the preview does not load,",
+    "openInNewTab": "open the PDF in a new tab."
+  }
+}

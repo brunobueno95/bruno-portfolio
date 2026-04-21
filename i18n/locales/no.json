@@ -1,1 +1,28 @@
-{}
+{
+  "nav": {
+    "about": "Om",
+    "tools": "Verktøy",
+    "cv": "CV",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "hero": {
+      "location": "Stavern · Norge",
+      "titleLead": "Roustabout og",
+      "titleMid": "dekksarbeider",
+      "titleEnd": "— kandidat.",
+      "body": "Sterkt sikkerhetsfokus og lærer raskt. Komfortabel med å jobbe under press og følge prosedyrer. Ser etter en mulighet til å lære og utvikle meg på norsk sokkel — dekk-, roustabout-, rigger- eller kranfører-stillinger. Bosatt i Stavern, kan mobiliseres på kort varsel.",
+      "ctaCv": "Last ned CV (PDF)",
+      "ctaCvView": "eller les i nettleseren →",
+      "ctaContact": "Kontakt"
+    }
+  },
+  "cv": {
+    "kicker": "CV",
+    "title": "Curriculum Vitae.",
+    "body": "Les hele CV-en direkte i nettleseren — ingen nedlasting nødvendig. Bruk språkvelgeren øverst for å bytte mellom engelsk og norsk.",
+    "download": "Last ned PDF",
+    "fallback": "Hvis forhåndsvisningen ikke laster,",
+    "openInNewTab": "åpne PDF-en i ny fane."
+  }
+}

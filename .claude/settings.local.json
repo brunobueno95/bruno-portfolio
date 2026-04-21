@@ -4,7 +4,18 @@
       "Bash(npm run *)",
       "Bash(curl *)",
       "Bash(grep -oE \"\\(text-slate-900|border-orange-600\\)[^\\\\\\\\\\\\\\\\]*color: rgb\\\\\\([^\\)]*\\\\\\)\")",
-      "Bash(tr '\\\\\\\\' '\\\\n')"
+      "Bash(tr '\\\\\\\\' '\\\\n')",
+      "Bash(npm install *)",
+      "Bash(npm outdated *)",
+      "Bash(npm ls *)",
+      "Bash(mkdir -p public/images public/certifications)",
+      "Bash(mv \"app/assets/images/home/bruno.jpg\" public/images/bruno.jpg)",
+      "Bash(mv \"app/assets/images/certifications/diploma \\(1\\).pdf\" \"public/certifications/gsk-diplom.pdf\")",
+      "Bash(mv \"app/assets/images/certifications/G4 - diplom - Bruno Bernardo Rossigneux De Oliveira Bueno \\(1\\).pdf\" \"public/certifications/g4-diplom.pdf\")",
+      "Bash(mv \"app/assets/images/certifications/G11 diplom - Bruno Bernardo Rossigneux De Oliveira Bueno \\(1\\).pdf\" \"public/certifications/g11-diplom.pdf\")",
+      "Bash(npx nuxt *)",
+      "WebSearch",
+      "WebFetch(domain:unsplash.com)"
     ]
   }
 }
