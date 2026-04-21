@@ -75,7 +75,7 @@ const languages = [
         <p>
         
 Diving gave me the foundation: <strong> 1,000+ dives as a PADI and CMAS instructor</strong> across Norway, the Philippines, Mexico, Brazil and Honduras. Safety and situation awareness became an instict — gear checks, buddy protocols, decisions that matters. That translates directly to deck work. </p>
-<p>Three years in software taught me problem-solving under pressure and how to adapt fast when systems change. <strong>Computer literacy is only going to matter more offshore, not less,</strong> as rigs get more instrumented and data-driven.</p>
+<p>Three years in software taught me problem-solving under pressure, how to read documentation and learn fast new systems. <strong>Computer literacy is only going to matter more offshore, not less,</strong> as rigs get more instrumented and data-driven.</p>
 <p>Offshore is where I want to be.<strong> Physical work with real stakes. Mental challenges that build strength. A team you depend on and who depends on you.</strong> Norwegian oil and gas built a lot of what makes this country great, and I want to contribute to it directly.</p>
 <p>Certifications in hand: <strong>GSK, G11, NOG 113 Fallsikring, Riggerkurs, G4 Traverskran, Truck T1–T2–T3–T4. G20 Hydraulisk Kran</strong> scheduled for 15 May 2026. Available to mobilise.
         </p>
