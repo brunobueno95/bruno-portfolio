@@ -29,7 +29,7 @@ const meta: ProjectMeta[] = [
     slug: 'drilling-operations-trainer',
     year: '2025',
     image: '/projects/drilling-tool.jpg',
-    live: null
+    live: 'https://drilling-fundamentals-ynd9-43k60jmwm-brunobueno95s-projects.vercel.app/'
   },
   {
     slug: 'rigging-route-planner',

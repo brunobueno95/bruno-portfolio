@@ -6,7 +6,13 @@ const cvHref = computed(() =>
 )
 
 type CertStatus = 'scheduled' | null
-type CertMeta = { key: string; short: string; status: CertStatus; file: string | null }
+type CertMeta = {
+  key: string
+  short: string
+  status: CertStatus
+  file: string | null
+  startDate?: string
+}
 
 const certifications: CertMeta[] = [
   { key: 'GSK', short: 'GSK', status: null, file: '/certifications/gsk-diplom.pdf' },
@@ -15,15 +21,75 @@ const certifications: CertMeta[] = [
   { key: 'NOG113', short: 'NOG 113', status: null, file: '/certifications/nog-113-fall-protection.pdf' },
   { key: 'Rigger', short: 'Rigger', status: null, file: '/certifications/rigger-diplom.pdf' },
   { key: 'G4', short: 'G4', status: null, file: '/certifications/g4-diplom.pdf' },
-  { key: 'G20', short: 'G20', status: 'scheduled', file: null },
+  { key: 'G20', short: 'G20', status: 'scheduled', file: null, startDate: '15.05.2026' },
   { key: 'Truck', short: 'T1–T4', status: null, file: '/certifications/truck-t1-t4-diplom.pdf' }
 ]
 
-const additionalTraining = [
-  { short: 'IWCF L1', key: 'iwcf' },
-  { short: 'WOCRM', key: 'wocrm' },
-  { short: 'Rig Pass', key: 'rigPass' },
-  { short: 'WCAT', key: 'wcat' }
+type TrainingModule = { title: string; file: string }
+type TrainingMeta = {
+  short: string
+  key: string
+  file: string | null
+  image: string | null
+  modules?: TrainingModule[]
+}
+
+const humanFactorsBase = '/additional-training/human-factor-og/'
+const humanFactorsModules: TrainingModule[] = [
+  {
+    title: '01 — Introduction to Human Factors',
+    file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 01_ An Introduction to Human Factors in the Oil & Gas Industry (1).pdf`
+  },
+  {
+    title: '02 — Mind-State Management for Safety',
+    file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 02_ Mind-State Management for Safety in High Risk Environments (1).pdf`
+  },
+  {
+    title: '03 — Communication in High Risk Environments',
+    file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 03_ Improving Communication in High Risk Environments (1).pdf`
+  },
+  {
+    title: '04 — Performance, Workload, Fatigue & Stress',
+    file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 04_ Managing Performance, Workload, Fatigue and Stress. (1).pdf`
+  },
+  {
+    title: '05 — Decision Making & Dynamic Risk Assessment',
+    file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 05_ Decision Making and Dynamic Risk Assessment in High Risk Environments (1).pdf`
+  },
+  {
+    title: '06 — Situational Awareness',
+    file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 06_ Situational Awareness in High Risk Environments (1).pdf`
+  },
+  {
+    title: '07 — Teamwork',
+    file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 07_ Teamwork in High Risk Environments (1).pdf`
+  },
+  {
+    title: '08 — Leadership',
+    file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 08_ Leadership in High Risk Environments (1).pdf`
+  },
+  {
+    title: '09 — Threat & Error Management',
+    file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 09_ Threat and Error Management in High Risk Environments (1).pdf`
+  }
+]
+
+const additionalTraining: TrainingMeta[] = [
+  {
+    short: 'IWCF L1',
+    key: 'iwcf',
+    file: '/additional-training/iwcf-level1.pdf',
+    image: '/additional-training/iwcf-level1-image.jpg'
+  },
+  { short: 'WOCRM', key: 'wocrm', file: null, image: null },
+  { short: 'IADC', key: 'iadcIntro', file: null, image: null },
+  {
+    short: 'Human Factors',
+    key: 'humanFactors',
+    file: null,
+    image: null,
+    modules: humanFactorsModules
+  }
 ]
 
 const { projects: toolPreviews } = useProjects()
@@ -39,6 +105,36 @@ const background = [
 
 const statusLabel = (status: CertStatus) =>
   status === 'scheduled' ? t('home.certs.scheduled') : ''
+
+// Bold the issuing-body acronym at the start of a training label.
+// Safe from XSS: the input is a developer-authored translation string, never user content.
+const boldifyIssuer = (text: string) =>
+  text.replace(/^(IWCF|IADC)\b/, '<strong>$1</strong>')
+
+const openSections = ref<Record<string, boolean>>({})
+const toggleSection = (key: string) => {
+  openSections.value[key] = !openSections.value[key]
+}
+
+// Animate height from 0 ↔ scrollHeight so the expansion feels smooth.
+const onExpandEnter = (el: Element) => {
+  const e = el as HTMLElement
+  e.style.height = 'auto'
+  const target = e.scrollHeight
+  e.style.height = '0px'
+  // force reflow before animating to the measured height
+  void e.offsetHeight
+  e.style.height = `${target}px`
+}
+const onExpandAfterEnter = (el: Element) => {
+  (el as HTMLElement).style.height = 'auto'
+}
+const onExpandLeave = (el: Element) => {
+  const e = el as HTMLElement
+  e.style.height = `${e.scrollHeight}px`
+  void e.offsetHeight
+  e.style.height = '0px'
+}
 </script>
 
 <template>
@@ -146,30 +242,67 @@ const statusLabel = (status: CertStatus) =>
               </span>
             </div>
             <div class="mt-auto pt-6">
-              <a
-                v-if="cert.file"
-                :href="cert.file"
-                target="_blank"
-                rel="noopener"
-                :aria-label="$t('home.certs.openPdf', { short: cert.short })"
-                class="group relative block aspect-[4/3] w-full overflow-hidden rounded-sm border border-slate-200 bg-white"
-              >
-                <iframe
-                  :src="`${cert.file}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`"
-                  class="pointer-events-none absolute inset-0 h-full w-full"
-                  loading="lazy"
-                  :title="$t('home.certs.openPdf', { short: cert.short })"
-                />
-                <div class="pointer-events-none absolute inset-x-0 bottom-0 flex items-center justify-between gap-2 bg-slate-900/85 px-3 py-2 text-white opacity-0 transition-opacity group-hover:opacity-100">
-                  <span class="text-[10px] font-medium uppercase tracking-[0.2em]">
+              <template v-if="cert.file">
+                <!-- Desktop: inline PDF preview -->
+                <a
+                  :href="cert.file"
+                  target="_blank"
+                  rel="noopener"
+                  :aria-label="$t('home.certs.openPdf', { short: cert.short })"
+                  class="group relative hidden aspect-[4/3] w-full overflow-hidden rounded-sm border border-slate-200 bg-white md:block"
+                >
+                  <iframe
+                    :src="`${cert.file}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`"
+                    class="pointer-events-none absolute inset-0 h-full w-full"
+                    loading="lazy"
+                    :title="$t('home.certs.openPdf', { short: cert.short })"
+                  />
+                  <div class="pointer-events-none absolute inset-x-0 bottom-0 flex items-center justify-between gap-2 bg-slate-900/85 px-3 py-2 text-white opacity-0 transition-opacity group-hover:opacity-100">
+                    <span class="text-[10px] font-medium uppercase tracking-[0.2em]">
+                      {{ $t('home.certs.openPdf', { short: cert.short }) }}
+                    </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="h-4 w-4">
+                      <path d="M7 17L17 7" />
+                      <path d="M8 7h9v9" />
+                    </svg>
+                  </div>
+                </a>
+
+                <!-- Mobile: tap-to-open card, no iframe (PDF inline rendering is unreliable on phones) -->
+                <a
+                  :href="cert.file"
+                  target="_blank"
+                  rel="noopener"
+                  :aria-label="$t('home.certs.openPdf', { short: cert.short })"
+                  class="flex items-center justify-between gap-3 rounded-sm border border-slate-300 bg-white px-4 py-3 text-sm font-medium text-slate-900 active:bg-slate-50 md:hidden"
+                >
+                  <span class="inline-flex items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="h-5 w-5 text-slate-500">
+                      <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M14 2v6h6M9 13h6M9 17h6" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
                     {{ $t('home.certs.openPdf', { short: cert.short }) }}
                   </span>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="h-4 w-4">
-                    <path d="M7 17L17 7" />
-                    <path d="M8 7h9v9" />
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" class="h-4 w-4 text-slate-500">
+                    <path d="M7 17L17 7M8 7h9v9" stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
-                </div>
-              </a>
+                </a>
+              </template>
+              <div
+                v-else-if="cert.status === 'scheduled' && cert.startDate"
+                class="flex aspect-[4/3] w-full flex-col items-center justify-center gap-3 rounded-sm border-2 border-dashed border-slate-900 bg-slate-50 px-6 text-center"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="h-8 w-8 text-slate-900">
+                  <rect x="3" y="5" width="18" height="16" rx="1.5" />
+                  <path d="M8 3v4M16 3v4M3 10h18" stroke-linecap="round" />
+                </svg>
+                <span class="text-[11px] font-medium uppercase tracking-[0.25em] text-slate-900">
+                  {{ $t('home.certs.scheduled') }}
+                </span>
+                <p class="text-xl font-semibold tracking-tight text-slate-900">
+                  {{ cert.startDate }}
+                </p>
+              </div>
               <ImagePlaceholder
                 v-else
                 ratio="landscape"
@@ -184,21 +317,105 @@ const statusLabel = (status: CertStatus) =>
           <p class="text-[11px] uppercase tracking-[0.25em] text-slate-500">
             {{ $t('home.certs.additionalTraining') }}
           </p>
-          <ul class="mt-6 grid gap-3 md:grid-cols-2">
-            <li
-              v-for="a in additionalTraining"
-              :key="a.key"
-              class="flex items-baseline gap-3 text-sm text-slate-700"
-            >
-              <span class="shrink-0 border border-slate-300 px-2 py-0.5 text-[10px] font-medium uppercase tracking-[0.2em] text-slate-500">
-                {{ a.short }}
-              </span>
-              <span>{{ $t(`additionalTraining.${a.key}`) }}</span>
+          <ul class="mt-6 grid items-start gap-x-10 gap-y-8 md:grid-cols-2">
+            <li v-for="a in additionalTraining" :key="a.key">
+              <div v-if="a.file" class="flex flex-col gap-4 rounded-sm bg-slate-100/70 p-5 text-sm text-slate-700">
+                <div class="flex flex-wrap items-center justify-between gap-3">
+                  <span v-html="boldifyIssuer($t(`additionalTraining.${a.key}`))" />
+                  <a
+                    :href="a.file"
+                    target="_blank"
+                    rel="noopener"
+                    :aria-label="$t('home.certs.openPdf', { short: a.short })"
+                    class="inline-flex items-center gap-1 border border-slate-900 px-2 py-0.5 text-[9px] font-medium uppercase tracking-[0.2em] text-slate-900 hover:bg-slate-900 hover:text-white"
+                  >
+                    {{ $t('home.certs.viewPdf') }}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" class="h-2.5 w-2.5">
+                      <path d="M7 17L17 7M8 7h9v9" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </a>
+                </div>
+                <SmartImage
+                  v-if="a.image"
+                  :src="a.image"
+                  :alt="a.short"
+                  loading="lazy"
+                  class="aspect-[4/3] w-full max-w-[200px] rounded-sm border border-slate-200 bg-white"
+                />
+              </div>
+              <div
+                v-else-if="a.modules"
+                class="flex flex-col gap-4 rounded-sm bg-slate-100/70 p-5 text-sm text-slate-700"
+              >
+                <button
+                  type="button"
+                  class="flex flex-wrap items-center justify-between gap-3 text-left text-sm text-slate-700 hover:text-slate-900"
+                  :aria-expanded="!!openSections[a.key]"
+                  @click="toggleSection(a.key)"
+                >
+                  <span v-html="boldifyIssuer($t(`additionalTraining.${a.key}`))" />
+                  <span class="inline-flex items-center gap-1 border border-slate-900 px-2 py-0.5 text-[9px] font-medium uppercase tracking-[0.2em] text-slate-900 hover:bg-slate-900 hover:text-white">
+                    {{ $t('home.certs.moduleCount', { count: a.modules.length }) }}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      class="h-2.5 w-2.5 transition-transform duration-300"
+                      :class="openSections[a.key] ? 'rotate-180' : ''"
+                    >
+                      <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                </button>
+                <Transition
+                  name="expand"
+                  @enter="onExpandEnter"
+                  @after-enter="onExpandAfterEnter"
+                  @leave="onExpandLeave"
+                >
+                  <ul
+                    v-show="openSections[a.key]"
+                    class="expand-panel space-y-1.5 border-l border-slate-300 pl-4"
+                  >
+                    <li v-for="m in a.modules" :key="m.file">
+                      <a
+                        :href="encodeURI(m.file)"
+                        target="_blank"
+                        rel="noopener"
+                        class="text-xs text-slate-600 underline underline-offset-2 decoration-slate-300 hover:text-slate-900 hover:decoration-slate-900"
+                      >
+                        {{ m.title }}
+                      </a>
+                    </li>
+                  </ul>
+                </Transition>
+              </div>
+              <div
+                v-else
+                class="flex flex-col gap-4 rounded-sm bg-slate-100/70 p-5 text-sm text-slate-700"
+              >
+                <div class="flex flex-wrap items-center justify-between gap-3">
+                  <span v-html="boldifyIssuer($t(`additionalTraining.${a.key}`))" />
+                  <span
+                    class="inline-flex items-center gap-1 border border-slate-900 px-2 py-0.5 text-[9px] font-medium uppercase tracking-[0.2em] text-slate-900"
+                    aria-hidden="true"
+                  >
+                    {{ $t('home.certs.viewPdf') }}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" class="h-2.5 w-2.5">
+                      <path d="M7 17L17 7M8 7h9v9" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </span>
+                </div>
+                <ImagePlaceholder
+                  ratio="landscape"
+                  class="w-full max-w-[200px]"
+                  :label="$t('home.certs.placeholderLabel', { short: a.short })"
+                />
+              </div>
             </li>
           </ul>
-          <p class="mt-6 text-xs text-slate-500">
-            {{ $t('home.certs.additionalNote') }}
-          </p>
         </div>
       </div>
     </section>
@@ -373,6 +590,26 @@ const statusLabel = (status: CertStatus) =>
     /* Track contains two copies of the list; shift by half + half the gap so it loops seamlessly. */
     transform: translateX(calc(-50% - 0.625rem));
   }
+}
+
+.expand-panel {
+  overflow: hidden;
+}
+
+.expand-enter-active,
+.expand-leave-active {
+  transition: height 280ms ease, opacity 200ms ease;
+  overflow: hidden;
+}
+
+.expand-enter-from,
+.expand-leave-to {
+  opacity: 0;
+}
+
+.expand-enter-to,
+.expand-leave-from {
+  opacity: 1;
 }
 
 @media (prefers-reduced-motion: reduce) {

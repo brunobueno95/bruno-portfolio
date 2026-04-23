@@ -30,6 +30,7 @@ const languages = ['portuguese', 'english', 'norwegian', 'spanish']
           src="/images/about-bruno.jpg"
           alt="Bruno Bueno"
           class="aspect-[3/4] w-full rounded-sm border border-slate-200"
+          skeleton-class="bg-gradient-to-br from-slate-300 via-slate-200 to-slate-300"
         />
       </div>
       <div class="space-y-6 leading-relaxed text-slate-700 md:col-span-3">

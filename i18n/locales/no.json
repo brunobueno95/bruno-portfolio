@@ -23,14 +23,16 @@
       "lede": "Kursbevis og sertifikatkort vises i sin helhet under hver oppføring.",
       "scheduled": "Planlagt",
       "placeholderLabel": "Sertifikat — {short}",
+      "placeholderScheduled": "Planlagt — starter {date}",
       "openPdf": "{short} — åpne PDF",
+      "viewPdf": "Se PDF",
       "additionalTraining": "Tilleggsstudium",
-      "additionalNote": "Kursbevis tilgjengelig på forespørsel."
+      "moduleCount": "{count} moduler"
     },
     "also": {
       "kicker": "Dessuten",
-      "title1": "Bygger verktøyene",
-      "title2": "jeg trener med.",
+      "title1": "Bygger verktøy",
+      "title2": "som utdyper kunnskapen min.",
       "body1": "Softwareutvikler med 3 års yrkeserfaring, fortsatt bygger, bare for et annet sett med problemer nå. Verktøyene under støtter min egen offshore-forberedelse: en simulator for traverskran-løft, en boreoperasjonstrener, en riggerrute-planlegger, og en AI-pipeline som gjør NORSOK-, IWCF- og IADC-materiale til strukturert studieinnhold.",
       "body2": "På dekk betyr det rask læring, komfort med skriftlige prosedyrer, og vanen med å gjøre tykt teknisk materiale om til noe et mannskap faktisk kan bruke. En ressurs som kommer i tillegg, ikke i stedet for.",
       "seeAll": "Se alle verktøy →"
@@ -88,10 +90,10 @@
     }
   },
   "additionalTraining": {
-    "iwcf": "IWCF Level 1 — Grunnleggende boring",
-    "wocrm": "WOCRM — Well Operations Crew Resource Management",
-    "rigPass": "Rig Pass — IADC",
-    "wcat": "Well Control Awareness Training — IADC"
+    "iwcf": "IWCF — Level 1 Grunnleggende boring",
+    "humanFactors": "Menneskelige faktorer i olje og gass — Global Network of Companies",
+    "wocrm": "IWCF — Well Operations Crew Resource Management",
+    "iadcIntro": "IADC — WellSharp Drilling Operations Training"
   },
   "about": {
     "kicker": "Om",
