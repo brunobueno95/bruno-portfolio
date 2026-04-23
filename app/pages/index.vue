@@ -74,39 +74,39 @@ type TrainingMeta = {
 const humanFactorsBase = "/additional-training/human-factor-og/";
 const humanFactorsModules: TrainingModule[] = [
   {
-    title: "01 — Introduction to Human Factors",
+    title: "01. Introduction to Human Factors",
     file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 01_ An Introduction to Human Factors in the Oil & Gas Industry (1).pdf`,
   },
   {
-    title: "02 — Mind-State Management for Safety",
+    title: "02. Mind-State Management for Safety",
     file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 02_ Mind-State Management for Safety in High Risk Environments (1).pdf`,
   },
   {
-    title: "03 — Communication in High Risk Environments",
+    title: "03. Communication in High Risk Environments",
     file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 03_ Improving Communication in High Risk Environments (1).pdf`,
   },
   {
-    title: "04 — Performance, Workload, Fatigue & Stress",
+    title: "04. Performance, Workload, Fatigue & Stress",
     file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 04_ Managing Performance, Workload, Fatigue and Stress. (1).pdf`,
   },
   {
-    title: "05 — Decision Making & Dynamic Risk Assessment",
+    title: "05. Decision Making & Dynamic Risk Assessment",
     file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 05_ Decision Making and Dynamic Risk Assessment in High Risk Environments (1).pdf`,
   },
   {
-    title: "06 — Situational Awareness",
+    title: "06. Situational Awareness",
     file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 06_ Situational Awareness in High Risk Environments (1).pdf`,
   },
   {
-    title: "07 — Teamwork",
+    title: "07. Teamwork",
     file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 07_ Teamwork in High Risk Environments (1).pdf`,
   },
   {
-    title: "08 — Leadership",
+    title: "08. Leadership",
     file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 08_ Leadership in High Risk Environments (1).pdf`,
   },
   {
-    title: "09 — Threat & Error Management",
+    title: "09. Threat & Error Management",
     file: `${humanFactorsBase}Bueno, Bruno-Human Factor O&G 09_ Threat and Error Management in High Risk Environments (1).pdf`,
   },
 ];

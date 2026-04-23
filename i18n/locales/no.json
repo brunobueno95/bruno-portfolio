@@ -11,8 +11,8 @@
       "location": "Stavern · Norge",
       "titleLead": "Roustabout og",
       "titleMid": "dekksarbeider",
-      "titleEnd": "— kandidat.",
-      "body": "Sterkt sikkerhetsfokus og lærer raskt. Komfortabel med å jobbe under press og følge prosedyrer. Ser etter en mulighet til å lære og utvikle meg på norsk sokkel — dekk-, roustabout-, rigger- eller kranfører-stillinger. Bosatt i Stavern, kan mobiliseres på kort varsel.",
+      "titleEnd": "kandidat.",
+      "body": "Sterkt sikkerhetsfokus og lærer raskt. Komfortabel med å jobbe under press og følge prosedyrer. Ser etter en mulighet til å lære og utvikle meg på norsk sokkel, i dekk-, roustabout-, rigger- eller kranfører-stillinger. Bosatt i Stavern, kan mobiliseres på kort varsel.",
       "ctaCv": "Last ned CV (PDF)",
       "ctaCvView": "eller les i nettleseren →",
       "ctaContact": "Kontakt"
@@ -22,9 +22,9 @@
       "title": "Offshore-kvalifikasjoner.",
       "lede": "Kursbevis og sertifikatkort vises i sin helhet under hver oppføring.",
       "scheduled": "Planlagt",
-      "placeholderLabel": "Sertifikat — {short}",
-      "placeholderScheduled": "Planlagt — starter {date}",
-      "openPdf": "{short} — åpne PDF",
+      "placeholderLabel": "Sertifikat: {short}",
+      "placeholderScheduled": "Planlagt, starter {date}",
+      "openPdf": "{short}, åpne PDF",
       "viewPdf": "Se PDF",
       "enrolled": "Påmeldt",
       "additionalTraining": "Tilleggsstudium",
@@ -35,7 +35,7 @@
       "title1": "Bygger verktøy",
       "title2": "som utdyper kunnskapen min.",
       "body1": "Dette er personlige verktøy jeg har bygget for å forberede meg på offshore-arbeid: en simulator for traverskran-løft, en simulator for grunnleggende boring, og en riggerrute-planlegger.",
-      "body2": "Jeg liker å gjøre ny kunnskap fra kurs om til modeller jeg kan samhandle med og lære videre fra. Den vanen er hvordan jeg går fra null til kompetent raskt — og hvordan jeg får innholdet til å feste seg.",
+      "body2": "Jeg liker å gjøre ny kunnskap fra kurs om til modeller jeg kan samhandle med og lære videre fra. Den vanen er hvordan jeg går fra null til kompetent raskt, og hvordan jeg får innholdet til å feste seg.",
       "seeAll": "Se alle verktøy →"
     },
     "background": {
@@ -43,7 +43,7 @@
       "title": "Overførbar erfaring.",
       "fullHistory": "Full historikk →",
       "divingLabel": "Dykking",
-      "divingLine": "1 000+ timer i åpen-sjø-operasjoner. PADI-instruktørarbeid i Norge, Filippinene, Mexico, Brasil og Honduras — utstyrskontroll, briefinger og rolige beslutninger under press.",
+      "divingLine": "1 000+ timer i åpen-sjø-operasjoner. PADI-instruktørarbeid i Norge, Filippinene, Mexico, Brasil og Honduras. Utstyrskontroll, briefinger og rolige beslutninger under press.",
       "languagesLabel": "Språk",
       "languagesLine": "Portugisisk (morsmål), engelsk (flytende), norsk (B2), spansk.",
       "internationalLabel": "Internasjonalt",
@@ -58,19 +58,19 @@
   },
   "certifications": {
     "GSK": {
-      "name": "GSK — Grunnleggende sikkerhetskurs offshore",
-      "description": "RSS-20756. Norsk grunnleggende sikkerhet offshore — sjøoverlevelse, brann, førstehjelp og HUET. Gyldig 03/2030."
+      "name": "GSK Grunnleggende sikkerhetskurs offshore",
+      "description": "RSS-20756. Norsk grunnleggende sikkerhet offshore som dekker sjøoverlevelse, brann, førstehjelp og HUET. Gyldig 03/2030."
     },
     "Helseattest": {
       "name": "Helseattest sjøfolk/offshore",
       "description": "Norsk offshore helseattest. Gyldig 03/2028."
     },
     "G11": {
-      "name": "G11 — Løfteredskap",
-      "description": "Rigging og signalgivning for løfteoperasjoner — stropper, sjakler og løfteutstyr."
+      "name": "G11 Løfteredskap",
+      "description": "Rigging og signalgivning for løfteoperasjoner: stropper, sjakler og løfteutstyr."
     },
     "NOG113": {
-      "name": "NOG 113 / NS 9610 — Fallsikring offshore",
+      "name": "NOG 113 / NS 9610 Fallsikring offshore",
       "description": "Norsk olje og gass-standard for arbeid i høyden, selebruk og redning."
     },
     "Rigger": {
@@ -78,11 +78,11 @@
       "description": "Spesialistrigger-opplæring som dekker løfteplanlegging, lasthåndtering og signalgivning."
     },
     "G4": {
-      "name": "G4 — Bro- og traverskran",
+      "name": "G4 Bro- og traverskran",
       "description": "Operatørsertifikat for bro- og traverskran."
     },
     "G20": {
-      "name": "G20 — Hydraulisk kran",
+      "name": "G20 Hydraulisk kran",
       "description": "Operatørsertifikat for hydraulisk kran. Kurs planlagt 15.05.2026."
     },
     "Truck": {
@@ -91,16 +91,16 @@
     }
   },
   "additionalTraining": {
-    "iwcf": "IWCF — Level 1 Grunnleggende boring",
-    "humanFactors": "Menneskelige faktorer i olje og gass — Global Network of Companies",
-    "wocrm": "IWCF — Well Operations Crew Resource Management"
+    "iwcf": "IWCF Level 1 Grunnleggende boring",
+    "humanFactors": "Menneskelige faktorer i olje og gass, Global Network of Companies",
+    "wocrm": "IWCF Well Operations Crew Resource Management"
   },
   "about": {
     "kicker": "Om",
     "title1": "Født i Rio,",
     "title2": "bosatt i Stavern.",
     "bio1": {
-      "text": "Dykkingen ga meg grunnlaget: {strong} i Norge, Filippinene, Mexico, Brasil og Honduras. Sikkerhet og situasjonsforståelse ble instinkt — utstyrskontroll, buddy-rutiner, beslutninger som teller. Det overføres direkte til dekksarbeid.",
+      "text": "Dykkingen ga meg grunnlaget: {strong} i Norge, Filippinene, Mexico, Brasil og Honduras. Sikkerhet og situasjonsforståelse ble instinkt: utstyrskontroll, buddy-rutiner, beslutninger som teller. Det overføres direkte til dekksarbeid.",
       "strong": "1 000+ dykk som PADI- og CMAS-instruktør"
     },
     "bio2": {
@@ -124,7 +124,7 @@
     "cvBox": {
       "kicker": "Full CV",
       "title": "Last ned CV-en (PDF).",
-      "lede": "Fullversjonen — sertifiseringer, datoer, organisasjoner.",
+      "lede": "Fullversjonen: sertifiseringer, datoer, organisasjoner.",
       "button": "Last ned CV",
       "view": "Les i nettleseren"
     }
@@ -133,19 +133,19 @@
     "proweb": {
       "period": "Nov 2023 – Mai 2026",
       "role": "Softwareutvikler",
-      "org": "Proweb AS (Webson), Larvik. Fulltid. Strukturert problemløsning, disiplinert med prosedyrer og skriftlig dokumentasjon. Høy datakyndighet — tilpasser meg raskt til nye kontrollsystemer og digitale verktøy.",
+      "org": "Proweb AS (Webson), Larvik. Fulltid. Strukturert problemløsning, disiplinert med prosedyrer og skriftlig dokumentasjon. Høy datakyndighet, tilpasser meg raskt til nye kontrollsystemer og digitale verktøy.",
       "location": "Stokke, NO"
     },
     "sastech": {
       "period": "Feb 2023 – Sep 2023",
-      "role": "Softwareutvikler — praksis",
+      "role": "Softwareutvikler (praksis)",
       "org": "SASTECH AS, Larvik.",
       "location": "Larvik, NO"
     },
     "dive": {
       "period": "Jan 2017 – Aug 2024",
-      "role": "Dykkeoperasjoner — instruktør og teamleder",
-      "org": "1 000+ timer i åpen-sjø-operasjoner på tvers av flere dykkesentre. Teamledelse under press — briefinger, risikovurderinger, pre-operasjonskontroller, buddy-check-prosedyrer. Instruktør i førstehjelp og oksygenadministrering.",
+      "role": "Dykkeoperasjoner, instruktør og teamleder",
+      "org": "1 000+ timer i åpen-sjø-operasjoner på tvers av flere dykkesentre. Teamledelse under press: briefinger, risikovurderinger, pre-operasjonskontroller, buddy-check-prosedyrer. Instruktør i førstehjelp og oksygenadministrering.",
       "location": "Norge · Filippinene · Mexico · Brasil · Honduras"
     }
   },
@@ -188,7 +188,7 @@
     "kicker": "Kontakt",
     "title1": "Tilgjengelighet og",
     "title2": "direkte kontakt.",
-    "body": "Henvendelser om offshore dekk-, rigger- og kranfører-stillinger er velkomne — rotasjon, dagrate eller lengre oppdrag. Jeg svarer innen én arbeidsdag, samme dag i norsk arbeidstid. For hastemobiliseringer er telefon raskere enn e-post.",
+    "body": "Henvendelser om offshore dekk-, rigger- og kranfører-stillinger er velkomne, enten rotasjon, dagrate eller lengre oppdrag. Jeg svarer innen én arbeidsdag, samme dag i norsk arbeidstid. For hastemobiliseringer er telefon raskere enn e-post.",
     "emailLabel": "E-post",
     "emailLede": "Stillingsbeskrivelser, rotasjonsdetaljer, CV-forespørsler.",
     "phoneLabel": "Telefon",
@@ -206,21 +206,21 @@
     "kicker": "Verktøy",
     "title1": "Verktøy jeg har bygd",
     "title2": "for overgangen til offshore.",
-    "lede": "Verktøy bygd under overgangen fra software til offshore-arbeid. Ikke porteføljearbeider — de er stillaset jeg brukte for å studere, øve og holde sertifiseringsløpet på sporet. Hvert verktøy løste et reelt problem i forberedelsen og ble hengende fordi det fortsatte å løse det.",
+    "lede": "Verktøy bygd under overgangen fra software til offshore-arbeid. Ikke porteføljearbeider, de er stillaset jeg brukte for å studere, øve og holde sertifiseringsløpet på sporet. Hvert verktøy løste et reelt problem i forberedelsen og ble hengende fordi det fortsatte å løse det.",
     "backPrefix": "Hovedtilbudet er offshore-arbeid.",
     "backLink": "Se sertifiseringene →"
   },
   "cv": {
     "kicker": "CV",
     "title": "Curriculum Vitae.",
-    "body": "Les hele CV-en direkte i nettleseren — ingen nedlasting nødvendig. Bruk språkvelgeren øverst for å bytte mellom engelsk og norsk.",
+    "body": "Les hele CV-en direkte i nettleseren. Ingen nedlasting nødvendig. Bruk språkvelgeren øverst for å bytte mellom engelsk og norsk.",
     "download": "Last ned PDF",
     "print": "Skriv ut",
     "openPdf": "Åpne PDF-versjon",
     "fullName": "Bruno Bernardo Rossigneux de Oliveira Bueno",
     "profileLead": "Jeg har et sterkt sikkerhetsfokus og presterer godt i fysisk og mentalt krevende miljøer.",
     "profileEmphasis": "Dedikert, lærer raskt, alltid fokusert på å bli bedre.",
-    "profileTail": "Komfortabel med å jobbe under press og følge prosedyrer — ser etter en mulighet til å lære og utvikle meg i en bransje jeg er dypt fascinert av.",
+    "profileTail": "Komfortabel med å jobbe under press og følge prosedyrer, ser etter en mulighet til å lære og utvikle meg i en bransje jeg er dypt fascinert av.",
     "target": "Dekksarbeider / Roustabout",
     "certAvailable": "Kursbevis tilgjengelig på forespørsel.",
     "sections": {
@@ -269,7 +269,7 @@
     "back": "Alle verktøy",
     "backHint": "Trykk Esc for å gå tilbake",
     "viewLive": "Se live versjon",
-    "liveComingSoon": "Live-demo — kommer snart",
+    "liveComingSoon": "Live-demo kommer snart",
     "desktopOnlyNotice": "Disse verktøyene er bygget for skrivebord og fungerer kanskje ikke godt på mobil.",
     "overview": "Oversikt",
     "whatItTaught": "Hva det lærte meg",
@@ -278,14 +278,14 @@
       "overhead-crane-simulator": {
         "title": "Traverskran-simulator",
         "blurb": "En enkel kransimulator med presis lastfysikk. Bygget for å fortsette å øve etter at G4-kurset var ferdig.",
-        "what": "En enkel kransimulator med presis lastfysikk. Bygget for å fortsette å øve etter at G4-kurset var ferdig — når jeg ikke lenger har tilgang til en ekte kran, men fortsatt vil skjerpe følelsen. Unngå svinginger, stoppe svinginger, forutse, lese bevegelse. En måte å bygge muskelminne og erfaring på uten konsekvenser.",
-        "taught": "Å skrive fysikken tvang meg til å forstå hvorfor laster oppfører seg slik de gjør. Og så snart det fungerte, ble det tingen jeg faktisk bruker — et sted å holde følelsen levende mellom kurs, der feil koster ingenting.",
+        "what": "En enkel kransimulator med presis lastfysikk. Bygget for å fortsette å øve etter at G4-kurset var ferdig, når jeg ikke lenger har tilgang til en ekte kran, men fortsatt vil skjerpe følelsen. Unngå svinginger, stoppe svinginger, forutse, lese bevegelse. En måte å bygge muskelminne og erfaring på uten konsekvenser.",
+        "taught": "Å skrive fysikken tvang meg til å forstå hvorfor laster oppfører seg slik de gjør. Og så snart det fungerte, ble det tingen jeg faktisk bruker. Et sted å holde følelsen levende mellom kurs, der feil koster ingenting.",
         "overview": [
-          "En nettleserbasert kransimulator jeg har bygd med presis lastfysikk. Jeg bruker den for å fortsette å øve etter at G4-kurset var ferdig — når jeg ikke lenger hadde tilgang til en ekte kran, men fortsatt ville skjerpe følelsen.",
+          "En nettleserbasert kransimulator jeg har bygd med presis lastfysikk. Jeg bruker den for å fortsette å øve etter at G4-kurset var ferdig, når jeg ikke lenger hadde tilgang til en ekte kran, men fortsatt ville skjerpe følelsen.",
           "Fokuset mitt var lastens oppførsel: sving, bevegelsesenergi, forutse, stoppe en sving rent. Ting som bare faller på plass med timer på kontrollene. Et sted for meg å legge inn de timene, der feil koster ingenting."
         ],
         "highlights": [
-          "Presis lastfysikk — sving, bevegelsesenergi, treghet",
+          "Presis lastfysikk: sving, bevegelsesenergi, treghet",
           "Bro- og løpekatt-kontroller, taulengde, variabel lastvekt",
           "Øv på å stoppe svinginger, lese bevegelse, forutse",
           "Kjører i nettleseren, ingen installasjon"
@@ -293,17 +293,17 @@
       },
       "drilling-operations-trainer": {
         "title": "Simulator for grunnleggende boring",
-        "blurb": "En interaktiv måte å gå dypere inn i grunnleggende boring på — langt utover innholdet som dekkes på IWCF Level 1.",
-        "what": "En interaktiv måte å gå dypere inn i grunnleggende boring på — langt utover innholdet som dekkes på IWCF Level 1. Tydelig visualisering, live-instrumenter, interaktive kontroller. En måte å jobbe med konseptene på i stedet for bare å lese om dem. Bygget for å gjøre tungt teknisk innhold om til noe jeg kan se, ta på og leke med.",
-        "taught": "Å lese om pit gain, mudvekt og pumpetrykk er én ting — å se dem bevege seg, og kontrollere det som beveger dem, er en annen. Dette verktøyet har lært meg mye, både fra å bygge det og bruke det. Jeg justerer det stadig for å gjøre det mer realistisk, og jo mer jeg bygger, jo mer trekker temaet meg inn.",
+        "blurb": "En interaktiv måte å gå dypere inn i grunnleggende boring på, langt utover innholdet som dekkes på IWCF Level 1.",
+        "what": "En interaktiv måte å gå dypere inn i grunnleggende boring på, langt utover innholdet som dekkes på IWCF Level 1. Tydelig visualisering, live-instrumenter, interaktive kontroller. En måte å jobbe med konseptene på i stedet for bare å lese om dem. Bygget for å gjøre tungt teknisk innhold om til noe jeg kan se, ta på og leke med.",
+        "taught": "Å lese om pit gain, mudvekt og pumpetrykk er én ting. Å se dem bevege seg, og kontrollere det som beveger dem, er en annen. Dette verktøyet har lært meg mye, både fra å bygge det og bruke det. Jeg justerer det stadig for å gjøre det mer realistisk, og jo mer jeg bygger, jo mer trekker temaet meg inn.",
         "overview": [
-          "En interaktiv simulator for grunnleggende boring jeg har bygd for å gå dypere inn i temaet enn IWCF Level 1-pensumet tok meg. Live-instrumenter, formasjon-for-formasjon-geologi, et trykkvindu med trygge soner og kick/tap-grenser, og kontrollene en borer faktisk jobber med — WOB, RPM, pumperate, BOP.",
+          "En interaktiv simulator for grunnleggende boring jeg har bygd for å gå dypere inn i temaet enn IWCF Level 1-pensumet tok meg. Live-instrumenter, formasjon-for-formasjon-geologi, et trykkvindu med trygge soner og kick/tap-grenser, og kontrollene en borer faktisk jobber med: WOB, RPM, pumperate, BOP.",
           "Jeg bygde den for å gjøre tungt teknisk innhold om til noe jeg kunne se, ta på og leke med. Jeg borer gjennom formasjoner, ser poretrykket stige, justerer mudvekten for å holde meg i det trygge vinduet, håndterer connections, og ser hva som skjer når jeg ikke gjør det. Guidede opplæringer går gjennom det grunnleggende, og jeg finjusterer simulatoren stadig for å ta den videre."
         ],
         "highlights": [
           "Live-instrumenter: MD/TVD, MW med ECD, PP med fracture gradient, ROP, SPP, pit-volum, bakgrunnsgass, dreiemoment",
           "Borer-kontroller: weight on bit, rotasjonshastighet, pumperate, pumper av/på, make-connection, shut-in / lukke BOP",
-          "Formasjonsgeologi med pre-drill-prognose — poretrykksområder og forventet oppførsel per formasjon",
+          "Formasjonsgeologi med pre-drill-prognose: poretrykksområder og forventet oppførsel per formasjon",
           "Trykkvindu-visualisering: poretrykk, mudvekt, ECD, fracture gradient, trygt vindu og kick/tap-soner",
           "Tidskontroller (½x – 4x) og hendelseslogg for å gjennomgå beslutninger",
           "Kjører i nettleseren, ingen installasjon"
@@ -311,25 +311,25 @@
       },
       "rigging-route-planner": {
         "title": "Riggerrute-planlegger",
-        "blurb": "Et planleggingsverktøy for løft: heisposisjoner, vinkler, lastfordeling over festepunkter, og klaring mot hindringer — over, under og mellom.",
-        "what": "Et planleggingsverktøy for løft: heisposisjoner, vinkler, lastfordeling over festepunkter, og klaring mot hindringer — over, under og mellom. Bygget under Riggerkurs og brukt gjennom planleggingsfasen av kurset, og rost av instruktøren.",
-        "taught": "Timer med planlegging i verktøyet skjerpet visualiseringen min av vinkler, romlig forståelse, og instinktet for løftegeometri — å se et oppsett og umiddelbart vite om det fungerer.",
+        "blurb": "Et planleggingsverktøy for løft: heisposisjoner, vinkler, lastfordeling over festepunkter, og klaring mot hindringer over, under og mellom.",
+        "what": "Et planleggingsverktøy for løft: heisposisjoner, vinkler, lastfordeling over festepunkter, og klaring mot hindringer over, under og mellom. Bygget under Riggerkurs og brukt gjennom planleggingsfasen av kurset, og rost av instruktøren.",
+        "taught": "Timer med planlegging i verktøyet skjerpet visualiseringen min av vinkler, romlig forståelse, og instinktet for løftegeometri, å se et oppsett og umiddelbart vite om det fungerer.",
         "overview": [
-          "En interaktiv planlegger jeg har bygd for rigging av løft. Jeg plasserer lasten, setter heisposisjoner, definerer festepunkter, og ruter lastbanen rundt hindringer — over, under og mellom. Planleggeren viser heisvinkler og hvordan vekten fordeles over festepunktene i sanntid.",
+          "En interaktiv planlegger jeg har bygd for rigging av løft. Jeg plasserer lasten, setter heisposisjoner, definerer festepunkter, og ruter lastbanen rundt hindringer, over, under og mellom. Planleggeren viser heisvinkler og hvordan vekten fordeles over festepunktene i sanntid.",
           "Jeg bygde den under Riggerkurs for å planlegge kursøvelsene før vi utførte dem. Teamet kjørte planene våre gjennom den, og instruktøren roste verktøyet."
         ],
         "highlights": [
           "Interaktivt løfteoppsett: last, heiser, festepunkter, hindringer",
           "Live heisvinkel-avlesning når geometrien endres",
           "Lastfordeling over festepunkter",
-          "Hindringshåndtering — over, under og mellom",
+          "Hindringshåndtering: over, under og mellom",
           "Kjører i nettleseren, ingen installasjon"
         ]
       }
     }
   },
   "footer": {
-    "byline": "Offshore dekk-, rigger- og kranfører-kandidat. Norsk sokkel — klar for rotasjon.",
+    "byline": "Offshore dekk-, rigger- og kranfører-kandidat. Norsk sokkel, klar for rotasjon.",
     "site": "Side",
     "direct": "Direkte",
     "location": "Stavern · Norge"

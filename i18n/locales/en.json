@@ -11,8 +11,8 @@
       "location": "Stavern · Norway",
       "titleLead": "Roustabout &",
       "titleMid": "deck operator",
-      "titleEnd": "— candidate.",
-      "body": "Strong safety mindset and fast learner. Comfortable working under pressure and following procedures. Looking for an opportunity to learn and grow on the Norwegian shelf — deck, roustabout, rigger or crane-operator positions. Based in Stavern, able to mobilise on short notice.",
+      "titleEnd": "candidate.",
+      "body": "Strong safety mindset and fast learner. Comfortable working under pressure and following procedures. Looking for an opportunity to learn and grow on the Norwegian shelf, in deck, roustabout, rigger or crane-operator positions. Based in Stavern, able to mobilise on short notice.",
       "ctaCv": "Download CV (PDF)",
       "ctaCvView": "or view in browser →",
       "ctaContact": "Contact"
@@ -22,9 +22,9 @@
       "title": "Offshore credentials.",
       "lede": "Course certificates and cert cards shown in full below each entry.",
       "scheduled": "Scheduled",
-      "placeholderLabel": "Certificate — {short}",
-      "placeholderScheduled": "Scheduled — starting {date}",
-      "openPdf": "{short} — open PDF",
+      "placeholderLabel": "Certificate: {short}",
+      "placeholderScheduled": "Scheduled, starting {date}",
+      "openPdf": "{short}, open PDF",
       "viewPdf": "View PDF",
       "enrolled": "Currently enrolled",
       "additionalTraining": "Additional training",
@@ -35,7 +35,7 @@
       "title1": "Building tools",
       "title2": "That deepen my knowledge.",
       "body1": "These are personal tools I built to prepare myself for offshore work: a simulator for overhead-crane lifts, a drilling fundamentals simulator, and a rigging route planner.",
-      "body2": "I enjoy turning new knowledge I pick up from courses into models I can interact with and keep learning from. That habit is how I go from zero to competent fast — and how I make the content stick.",
+      "body2": "I enjoy turning new knowledge I pick up from courses into models I can interact with and keep learning from. That habit is how I go from zero to competent fast, and how I make the content stick.",
       "seeAll": "See all tools →"
     },
     "background": {
@@ -43,7 +43,7 @@
       "title": "Transferable experience.",
       "fullHistory": "Full history →",
       "divingLabel": "Diving",
-      "divingLine": "1,000+ hours in open-water operations. PADI instructor work across Norway, Philippines, Mexico, Brazil and Honduras — gear checks, briefings and calm decisions under pressure.",
+      "divingLine": "1,000+ hours in open-water operations. PADI instructor work across Norway, Philippines, Mexico, Brazil and Honduras. Gear checks, briefings and calm decisions under pressure.",
       "languagesLabel": "Languages",
       "languagesLine": "Portuguese (native), English (fluent), Norwegian (B2), Spanish.",
       "internationalLabel": "International",
@@ -58,19 +58,19 @@
   },
   "certifications": {
     "GSK": {
-      "name": "GSK — Basic Safety Course Offshore",
-      "description": "RSS-20756. Norwegian offshore basic safety — sea survival, fire, first aid and HUET. Valid 03/2030."
+      "name": "GSK Basic Safety Course Offshore",
+      "description": "RSS-20756. Norwegian offshore basic safety covering sea survival, fire, first aid and HUET. Valid 03/2030."
     },
     "Helseattest": {
       "name": "Offshore Medical Certificate",
       "description": "Norwegian offshore medical certificate (Helseattest). Valid 03/2028."
     },
     "G11": {
-      "name": "G11 — Lifting Equipment (Løfteredskap)",
-      "description": "Rigging and signalling for lifting operations — slings, shackles and lifting gear."
+      "name": "G11 Lifting Equipment (Løfteredskap)",
+      "description": "Rigging and signalling for lifting operations: slings, shackles and lifting gear."
     },
     "NOG113": {
-      "name": "NOG 113 / NS 9610 — Fall Protection Offshore",
+      "name": "NOG 113 / NS 9610 Fall Protection Offshore",
       "description": "Norwegian Oil & Gas standard for working at height, harness use and rescue."
     },
     "Rigger": {
@@ -78,11 +78,11 @@
       "description": "Specialist rigger training covering lift planning, load handling and signalling."
     },
     "G4": {
-      "name": "G4 — Bridge and Overhead Crane",
+      "name": "G4 Bridge and Overhead Crane",
       "description": "Operator certificate for bridge and overhead (travers) cranes."
     },
     "G20": {
-      "name": "G20 — Hydraulic Crane",
+      "name": "G20 Hydraulic Crane",
       "description": "Hydraulic crane operator certificate. Course scheduled 15.05.2026."
     },
     "Truck": {
@@ -91,16 +91,16 @@
     }
   },
   "additionalTraining": {
-    "iwcf": "IWCF — Level 1 Drilling Fundamentals",
-    "humanFactors": "Human Factors in Oil & Gas — Global Network of Companies",
-    "wocrm": "IWCF — Well Operations Crew Resource Management"
+    "iwcf": "IWCF Level 1 Drilling Fundamentals",
+    "humanFactors": "Human Factors in Oil & Gas, Global Network of Companies",
+    "wocrm": "IWCF Well Operations Crew Resource Management"
   },
   "about": {
     "kicker": "About",
     "title1": "Born in Rio,",
     "title2": "based in Stavern.",
     "bio1": {
-      "text": "Diving gave me the foundation: {strong} across Norway, the Philippines, Mexico, Brazil and Honduras. Safety and situation awareness became an instinct — gear checks, buddy protocols, decisions that matter. That translates directly to deck work.",
+      "text": "Diving gave me the foundation: {strong} across Norway, the Philippines, Mexico, Brazil and Honduras. Safety and situation awareness became an instinct: gear checks, buddy protocols, decisions that matter. That translates directly to deck work.",
       "strong": "1,000+ dives as a PADI and CMAS instructor"
     },
     "bio2": {
@@ -124,7 +124,7 @@
     "cvBox": {
       "kicker": "Full résumé",
       "title": "Download the CV (PDF).",
-      "lede": "The long-form record — certifications, dates, organisations.",
+      "lede": "The long-form record: certifications, dates, organisations.",
       "button": "Download CV",
       "view": "View in browser"
     }
@@ -133,19 +133,19 @@
     "proweb": {
       "period": "Nov 2023 – May 2026",
       "role": "Software Developer",
-      "org": "Proweb AS (Webson), Stokke. Full-time. Structured problem-solving, disciplined with procedures and written documentation. Strong computer literacy — adapt quickly to new control systems and digital tools.",
+      "org": "Proweb AS (Webson), Stokke. Full-time. Structured problem-solving, disciplined with procedures and written documentation. Strong computer literacy, adapting quickly to new control systems and digital tools.",
       "location": "Stokke, NO"
     },
     "sastech": {
       "period": "Feb 2023 – Sep 2023",
-      "role": "Software Developer — Internship",
+      "role": "Software Developer (Internship)",
       "org": "SASTECH AS, Larvik.",
       "location": "Larvik, NO"
     },
     "dive": {
       "period": "Jan 2017 – Aug 2024",
-      "role": "Dive Operations — Instructor & Team Lead",
-      "org": "1,000+ hours in open-water operations across multiple dive centres. Team leadership under pressure — briefings, risk assessments, pre-operation checks, buddy-check protocols. Emergency first response instructor and oxygen provider.",
+      "role": "Dive Operations, Instructor & Team Lead",
+      "org": "1,000+ hours in open-water operations across multiple dive centres. Team leadership under pressure: briefings, risk assessments, pre-operation checks, buddy-check protocols. Emergency first response instructor and oxygen provider.",
       "location": "Norway · Philippines · Mexico · Brazil · Honduras"
     }
   },
@@ -188,7 +188,7 @@
     "kicker": "Contact",
     "title1": "Availability and",
     "title2": "direct reach.",
-    "body": "Enquiries for offshore deck, rigger and crane-operator positions welcome — rotation, day-rate or longer hitches. I reply within a working day, same day during Norwegian office hours. For time-sensitive mobilisations, phone is faster than email.",
+    "body": "Enquiries for offshore deck, rigger and crane-operator positions welcome, whether rotation, day-rate or longer hitches. I reply within a working day, same day during Norwegian office hours. For time-sensitive mobilisations, phone is faster than email.",
     "emailLabel": "Email",
     "emailLede": "Role descriptions, rotation details, CV requests.",
     "phoneLabel": "Phone",
@@ -213,14 +213,14 @@
   "cv": {
     "kicker": "CV",
     "title": "Curriculum Vitae.",
-    "body": "Read the full résumé straight in the browser — no download required. Use the language switcher at the top to toggle between English and Norwegian.",
+    "body": "Read the full résumé straight in the browser. No download required. Use the language switcher at the top to toggle between English and Norwegian.",
     "download": "Download PDF",
     "print": "Print",
     "openPdf": "Open PDF version",
     "fullName": "Bruno Bernardo Rossigneux de Oliveira Bueno",
     "profileLead": "I have a strong safety mindset and perform well in physically and mentally demanding environments.",
     "profileEmphasis": "Dedicated, fast learner, always focused on improving.",
-    "profileTail": "Comfortable working under pressure and following procedures — looking for an opportunity to learn and grow in an industry that I'm fascinated about.",
+    "profileTail": "Comfortable working under pressure and following procedures, looking for an opportunity to learn and grow in an industry that I'm fascinated about.",
     "target": "Roustabout / Deck Operator",
     "certAvailable": "Certificates available on request.",
     "sections": {
@@ -269,7 +269,7 @@
     "back": "All tools",
     "backHint": "Press Esc to go back",
     "viewLive": "View live version",
-    "liveComingSoon": "Live demo — coming soon",
+    "liveComingSoon": "Live demo coming soon",
     "desktopOnlyNotice": "These tools were built with desktop in mind and may not work well on mobile.",
     "overview": "Overview",
     "whatItTaught": "What it taught me",
@@ -278,14 +278,14 @@
       "overhead-crane-simulator": {
         "title": "Overhead-crane rig simulator",
         "blurb": "A simple crane simulator with accurate load physics. Built to keep practicing after the G4 course ended.",
-        "what": "A simple crane simulator with accurate load physics. Built to keep practicing after the G4 course ended — when I no longer have access to a real crane but still want to sharpen the feel. Avoiding swings, stopping swings, anticipation, reading momentum. A way to build muscle memory and experience without consequences.",
-        "taught": "Writing the physics forced me to understand why loads behave the way they do. And once it worked, it became the thing I actually use — a place to keep the feel alive between courses, where mistakes cost nothing.",
+        "what": "A simple crane simulator with accurate load physics. Built to keep practicing after the G4 course ended, when I no longer have access to a real crane but still want to sharpen the feel. Avoiding swings, stopping swings, anticipation, reading momentum. A way to build muscle memory and experience without consequences.",
+        "taught": "Writing the physics forced me to understand why loads behave the way they do. And once it worked, it became the thing I actually use. A place to keep the feel alive between courses, where mistakes cost nothing.",
         "overview": [
-          "A browser-based crane simulator I built with accurate load physics. I use it to keep practicing after the G4 course ended — when I no longer had access to a real crane but still wanted to sharpen the feel.",
+          "A browser-based crane simulator I built with accurate load physics. I use it to keep practicing after the G4 course ended, when I no longer had access to a real crane but still wanted to sharpen the feel.",
           "My focus was the behaviour of the load: swing, momentum, anticipation, stopping a swing cleanly. Things that only really click with hours on the controls. A place for me to put those hours in, where mistakes cost nothing."
         ],
         "highlights": [
-          "Accurate load physics — swing, momentum, inertia",
+          "Accurate load physics: swing, momentum, inertia",
           "Bridge and trolley controls, rope length, variable load weight",
           "Practice stopping swings, reading momentum, anticipating movement",
           "Runs in the browser, no install"
@@ -293,17 +293,17 @@
       },
       "drilling-operations-trainer": {
         "title": "Drilling fundamentals simulator",
-        "blurb": "An interactive way to keep going deeper into drilling fundamentals — well beyond the content covered at IWCF Level 1.",
-        "what": "An interactive way to keep going deeper into drilling fundamentals — well beyond the content covered at IWCF Level 1. Clear visuals, live instruments, interactive controls. A way to work with the concepts instead of just reading about them. Built to turn dense technical content into something I can see, touch and play with.",
-        "taught": "Reading about pit gain, mud weight and pump pressure is one thing — watching them move, and controlling what moves them, is another. This tool has taught me a lot, from building it to using it. I'm always tweaking it to make it more realistic, and the more I build, the more the subject pulls me in.",
+        "blurb": "An interactive way to keep going deeper into drilling fundamentals, well beyond the content covered at IWCF Level 1.",
+        "what": "An interactive way to keep going deeper into drilling fundamentals, well beyond the content covered at IWCF Level 1. Clear visuals, live instruments, interactive controls. A way to work with the concepts instead of just reading about them. Built to turn dense technical content into something I can see, touch and play with.",
+        "taught": "Reading about pit gain, mud weight and pump pressure is one thing. Watching them move, and controlling what moves them, is another. This tool has taught me a lot, from building it to using it. I'm always tweaking it to make it more realistic, and the more I build, the more the subject pulls me in.",
         "overview": [
-          "An interactive drilling fundamentals simulator I built to go deeper into the subject than the IWCF Level 1 curriculum took me. Live instruments, formation-by-formation geology, a pressure window with safe zones and kick/loss limits, and the controls a driller actually works with — WOB, RPM, pump rate, BOP.",
+          "An interactive drilling fundamentals simulator I built to go deeper into the subject than the IWCF Level 1 curriculum took me. Live instruments, formation-by-formation geology, a pressure window with safe zones and kick/loss limits, and the controls a driller actually works with: WOB, RPM, pump rate, BOP.",
           "I built it to turn dense technical content into something I could see, touch and play with. I drill through formations, watch pore pressure rise, adjust mud weight to stay in the safe window, handle connections, and see what happens when I don't. Guided tutorials walk through the fundamentals, and I'm always tweaking the sim to go further."
         ],
         "highlights": [
           "Live instruments: MD/TVD, MW with ECD, PP with fracture gradient, ROP, SPP, pit volume, background gas, torque",
           "Driller controls: weight on bit, rotary speed, pump rate, pumps on/off, make-connection, shut-in / close BOP",
-          "Formation geology with pre-drill prognosis — pore pressure ranges and expected behaviour per formation",
+          "Formation geology with pre-drill prognosis: pore pressure ranges and expected behaviour per formation",
           "Pressure window visualization: pore pressure, mud weight, ECD, fracture gradient, safe window and kick/loss zones",
           "Time controls (½x – 4x) and event log for reviewing decisions",
           "Runs in the browser, no install"
@@ -311,25 +311,25 @@
       },
       "rigging-route-planner": {
         "title": "Rigging route planner",
-        "blurb": "A planning tool for lifts: hoist positions, angles, load weight distribution across anchor points, and obstacle clearance — over, under, and between.",
-        "what": "A planning tool for lifts: hoist positions, angles, load weight distribution across anchor points, and obstacle clearance — over, under, and between. Built during Riggerkurs and used throughout the planning phase of the course, and praised by the instructor.",
-        "taught": "Hours of planning with the tool sharpened my visualization of angles, spatial awareness, and instinct for lift geometry — seeing a setup and knowing immediately whether it works.",
+        "blurb": "A planning tool for lifts: hoist positions, angles, load weight distribution across anchor points, and obstacle clearance over, under, and between.",
+        "what": "A planning tool for lifts: hoist positions, angles, load weight distribution across anchor points, and obstacle clearance over, under, and between. Built during Riggerkurs and used throughout the planning phase of the course, and praised by the instructor.",
+        "taught": "Hours of planning with the tool sharpened my visualization of angles, spatial awareness, and instinct for lift geometry, seeing a setup and knowing immediately whether it works.",
         "overview": [
-          "An interactive planner I built for rigging lifts. I place the load, set hoist positions, define anchor points, and route the load path around obstacles — over, under, and between. The planner shows hoist angles and how weight distributes across the anchors in real time.",
+          "An interactive planner I built for rigging lifts. I place the load, set hoist positions, define anchor points, and route the load path around obstacles, over, under, and between. The planner shows hoist angles and how weight distributes across the anchors in real time.",
           "I built it during Riggerkurs to plan the course exercises before executing them. The team ran our plans through it, and the instructor praised the tool."
         ],
         "highlights": [
           "Interactive lift setup: load, hoists, anchor points, obstacles",
           "Live hoist angle readouts as the geometry changes",
           "Load weight distribution across anchor points",
-          "Obstacle handling — over, under, and between",
+          "Obstacle handling: over, under, and between",
           "Runs in the browser, no install"
         ]
       }
     }
   },
   "footer": {
-    "byline": "Offshore deck, rigger and crane-operator candidate. Norwegian shelf — ready for rotation.",
+    "byline": "Offshore deck, rigger and crane-operator candidate. Norwegian shelf, ready for rotation.",
     "site": "Site",
     "direct": "Direct",
     "location": "Stavern · Norway"
