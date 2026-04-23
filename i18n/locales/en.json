@@ -26,6 +26,7 @@
       "placeholderScheduled": "Scheduled — starting {date}",
       "openPdf": "{short} — open PDF",
       "viewPdf": "View PDF",
+      "enrolled": "Currently enrolled",
       "additionalTraining": "Additional training",
       "moduleCount": "{count} modules"
     },
@@ -93,11 +94,11 @@
     "iwcf": "IWCF — Level 1 Drilling Fundamentals",
     "humanFactors": "Human Factors in Oil & Gas — Global Network of Companies",
     "wocrm": "IWCF — Well Operations Crew Resource Management",
-    "iadcIntro": "IADC — WellSharp Drilling Operations Training"
+    "iwcfL2": "IWCF — Level 2 Drilling Well Control"
   },
   "about": {
     "kicker": "About",
-    "title1": "Born in Brazil,",
+    "title1": "Born in Rio,",
     "title2": "based in Stavern.",
     "bio1": {
       "text": "Diving gave me the foundation: {strong} across Norway, the Philippines, Mexico, Brazil and Honduras. Safety and situation awareness became an instinct — gear checks, buddy protocols, decisions that matter. That translates directly to deck work.",
