@@ -3,7 +3,8 @@
     "about": "Om",
     "tools": "Verktøy",
     "cv": "CV",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "backHome": "Tilbake til forsiden"
   },
   "home": {
     "hero": {
@@ -252,6 +253,7 @@
     "backHint": "Trykk Esc for å gå tilbake",
     "viewLive": "Se live versjon",
     "liveComingSoon": "Live-demo — kommer snart",
+    "desktopOnlyNotice": "Disse verktøyene er bygget for skrivebord og fungerer kanskje ikke godt på mobil.",
     "overview": "Oversikt",
     "whatItTaught": "Hva det lærte meg",
     "keyDetails": "Detaljer",

@@ -28,6 +28,9 @@ const additionalTraining = [
 
 const { projects: toolPreviews } = useProjects()
 
+// Duplicate the list so the translateX(-50%) marquee loops seamlessly.
+const marqueeItems = computed(() => [...toolPreviews.value, ...toolPreviews.value])
+
 const background = [
   { labelKey: 'home.background.divingLabel', lineKey: 'home.background.divingLine' },
   { labelKey: 'home.background.languagesLabel', lineKey: 'home.background.languagesLine' },
@@ -219,33 +222,36 @@ const statusLabel = (status: CertStatus) =>
           </div>
         </div>
 
-        <!-- Tool previews -->
-        <ul class="mt-8 grid gap-x-6 gap-y-4 sm:grid-cols-2 md:grid-cols-3">
-          <li v-for="tool in toolPreviews" :key="tool.slug">
+        <!-- Tool previews marquee -->
+        <div v-if="toolPreviews.length" class="marquee mt-8 -mx-6">
+          <div class="marquee-track">
             <NuxtLink
+              v-for="(tool, i) in marqueeItems"
+              :key="`${tool.slug}-${i}`"
               :to="localePath('/projects')"
-              class="group flex items-center gap-3"
+              class="marquee-item group relative block aspect-[4/3] overflow-hidden rounded-sm border border-slate-200 bg-slate-100"
+              :aria-hidden="i >= toolPreviews.length ? 'true' : undefined"
             >
               <SmartImage
                 :src="tool.image"
                 :alt="tool.title"
                 loading="lazy"
-                class="h-12 w-16 shrink-0 rounded-sm border border-slate-200"
+                class="absolute inset-0 h-full w-full"
                 inner-class="group-hover:scale-[1.02]"
               />
-              <div class="min-w-0">
-                <h3 class="truncate text-sm font-medium underline-offset-4 group-hover:underline">
-                  {{ tool.title }}
-                </h3>
-                <p class="mt-0.5 text-[11px] uppercase tracking-[0.2em] text-slate-500">
+              <div class="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black via-black/70 to-transparent px-4 pt-8 pb-3">
+                <p class="text-[10px] uppercase tracking-[0.25em] text-neutral-300">
                   {{ tool.year }}
                 </p>
+                <h3 class="mt-1 text-sm font-medium text-white underline-offset-4 group-hover:underline">
+                  {{ tool.title }}
+                </h3>
               </div>
             </NuxtLink>
-          </li>
-        </ul>
+          </div>
+        </div>
 
-        <div class="mt-8">
+        <div class="mt-8 text-center">
           <NuxtLink
             :to="localePath('/projects')"
             class="text-sm font-medium underline underline-offset-4 decoration-slate-400 hover:decoration-slate-900"
@@ -322,3 +328,56 @@ const statusLabel = (status: CertStatus) =>
     </section>
   </div>
 </template>
+
+<style scoped>
+.marquee {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    black 8%,
+    black 92%,
+    transparent 100%
+  );
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 1.25rem;
+  padding: 0 0.625rem;
+  animation: marquee-scroll 40s linear infinite;
+}
+
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+.marquee-item {
+  flex: 0 0 auto;
+  width: 18rem;
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    /* Track contains two copies of the list; shift by half + half the gap so it loops seamlessly. */
+    transform: translateX(calc(-50% - 0.625rem));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}
+</style>

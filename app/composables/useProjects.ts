@@ -23,7 +23,7 @@ const meta: ProjectMeta[] = [
     slug: 'overhead-crane-simulator',
     year: '2025',
     image: '/projects/overhead-crane.jpg',
-    live: null
+    live: 'https://g4-simulator.vercel.app/'
   },
   {
     slug: 'drilling-operations-trainer',
@@ -35,7 +35,7 @@ const meta: ProjectMeta[] = [
     slug: 'rigging-route-planner',
     year: '2025',
     image: '/projects/rigging-planner.jpg',
-    live: null
+    live: 'https://rigging-planner-s4fb.vercel.app/'
   },
   {
     slug: 'offshore-knowledge-pipeline',

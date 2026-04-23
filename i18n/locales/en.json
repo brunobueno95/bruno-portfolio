@@ -3,7 +3,8 @@
     "about": "About",
     "tools": "Tools",
     "cv": "CV",
-    "contact": "Contact"
+    "contact": "Contact",
+    "backHome": "Back to home"
   },
   "home": {
     "hero": {
@@ -267,6 +268,7 @@
     "backHint": "Press Esc to go back",
     "viewLive": "View live version",
     "liveComingSoon": "Live demo — coming soon",
+    "desktopOnlyNotice": "These tools were built with desktop in mind and may not work well on mobile.",
     "overview": "Overview",
     "whatItTaught": "What it taught me",
     "keyDetails": "Key details",
