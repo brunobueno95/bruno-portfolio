@@ -34,8 +34,8 @@
       "kicker": "Also",
       "title1": "Building tools",
       "title2": "That deepen my knowledge.",
-      "body1": "Software developer with 3 years professional experience, still building, just for a different set of problems now. The tools below support my own offshore preparation: a simulator for overhead-crane lifts, a drilling operations trainer, a rigging route planner, and an AI pipeline that turns NORSOK, IWCF and IADC material into structured study content.",
-      "body2": "On deck that translates to fast learning, comfort with written procedures, and the habit of turning thick technical material into something a crew can actually use. An asset that comes with, not instead of.",
+      "body1": "These are personal tools I built to prepare myself for offshore work: a simulator for overhead-crane lifts, a drilling fundamentals simulator, and a rigging route planner.",
+      "body2": "I enjoy turning new knowledge I pick up from courses into models I can interact with and keep learning from. That habit is how I go from zero to competent fast — and how I make the content stick.",
       "seeAll": "See all tools →"
     },
     "background": {
@@ -93,8 +93,7 @@
   "additionalTraining": {
     "iwcf": "IWCF — Level 1 Drilling Fundamentals",
     "humanFactors": "Human Factors in Oil & Gas — Global Network of Companies",
-    "wocrm": "IWCF — Well Operations Crew Resource Management",
-    "iwcfL2": "IWCF — Level 2 Drilling Well Control"
+    "wocrm": "IWCF — Well Operations Crew Resource Management"
   },
   "about": {
     "kicker": "About",
@@ -110,7 +109,7 @@
     },
     "bio3": {
       "text": "Offshore is where I want to be. {strong} Norwegian oil and gas built a lot of what makes this country great, and I want to contribute to it directly.",
-      "strong": "Physical work with real stakes. Mental challenges that build strength. A team you depend on and who depends on you."
+      "strong": "Physical work with real stakes. Mental challenges that build strength. A team I depend on and who depends on me."
     },
     "bio4": {
       "text": "Certifications in hand: {strong} scheduled for 15 May 2026. Available to mobilise.",
@@ -207,7 +206,7 @@
     "kicker": "Tools",
     "title1": "Tools I built for",
     "title2": "my offshore transition.",
-    "lede": "Four tools built during the move from software into offshore work. Not portfolio pieces — they're the scaffolding I used to study, drill and keep the certification timeline honest. Each one solved a real problem in preparation and stuck around because it kept solving it.",
+    "lede": "Tools I built while preparing for offshore work. Each one turns a course I took into something I can interact with and keep learning from.",
     "backPrefix": "The primary offer is offshore work.",
     "backLink": "See the certifications →"
   },
@@ -278,67 +277,53 @@
     "items": {
       "overhead-crane-simulator": {
         "title": "Overhead-crane rig simulator",
-        "blurb": "Training simulator for overhead and travelling cranes — lift planning, signalling and load-handling drills built for my own G4 preparation.",
-        "what": "Training simulator for bridge and overhead (travers) cranes. Lift planning, signalling and load-handling drills run against a virtual rig — built to reinforce G4 material with scenario repetition.",
-        "taught": "Building the physics and signalling logic forced me to understand the failure modes, not just the procedure steps. Mistakes in the sim are cheap — that is exactly what makes them useful.",
+        "blurb": "A simple crane simulator with accurate load physics. Built to keep practicing after the G4 course ended.",
+        "what": "A simple crane simulator with accurate load physics. Built to keep practicing after the G4 course ended — when I no longer have access to a real crane but still want to sharpen the feel. Avoiding swings, stopping swings, anticipation, reading momentum. A way to build muscle memory and experience without consequences.",
+        "taught": "Writing the physics forced me to understand why loads behave the way they do. And once it worked, it became the thing I actually use — a place to keep the feel alive between courses, where mistakes cost nothing.",
         "overview": [
-          "Browser-based simulator built as preparation for the G4 bridge and overhead crane certification. Covers the parts of the operator curriculum that book study tends to miss — the timing, the signalling, and the judgement calls under load.",
-          "Scenarios range from routine pick-and-place lifts to edge cases: suspended load hand-off, obstructed paths, wind loading on an outdoor bay. Each scenario has a correct operator response and a few wrong ones with visible consequences."
+          "A browser-based crane simulator I built with accurate load physics. I use it to keep practicing after the G4 course ended — when I no longer had access to a real crane but still wanted to sharpen the feel.",
+          "My focus was the behaviour of the load: swing, momentum, anticipation, stopping a swing cleanly. Things that only really click with hours on the controls. A place for me to put those hours in, where mistakes cost nothing."
         ],
         "highlights": [
-          "Scenario engine with a mix of routine and edge-case lifts",
-          "Load swing, wind and boom-deflection physics",
-          "Signalling practice with visual cues and voice prompts",
-          "Rigging plan validation against standard lift rules"
+          "Accurate load physics — swing, momentum, inertia",
+          "Bridge and trolley controls, rope length, variable load weight",
+          "Practice stopping swings, reading momentum, anticipating movement",
+          "Runs in the browser, no install"
         ]
       },
       "drilling-operations-trainer": {
-        "title": "Drilling operations trainer",
-        "blurb": "Scenario-based trainer covering well-control fundamentals and drilling-floor procedures. Built to reinforce IWCF and WOCRM material.",
-        "what": "Scenario-based trainer covering drilling-floor procedures and well-control fundamentals. Built to reinforce IWCF Level 1, WOCRM and IADC Rig Pass / Well Control Awareness material with repetition.",
-        "taught": "Turning passive reading into active decision-making under time pressure changed how the material landed. I remember the scenarios; the definitions followed.",
+        "title": "Drilling fundamentals simulator",
+        "blurb": "An interactive way to keep going deeper into drilling fundamentals — well beyond the content covered at IWCF Level 1.",
+        "what": "An interactive way to keep going deeper into drilling fundamentals — well beyond the content covered at IWCF Level 1. Clear visuals, live instruments, interactive controls. A way to work with the concepts instead of just reading about them. Built to turn dense technical content into something I can see, touch and play with.",
+        "taught": "Reading about pit gain, mud weight and pump pressure is one thing — watching them move, and controlling what moves them, is another. This tool has taught me a lot, from building it to using it. I'm always tweaking it to make it more realistic, and the more I build, the more the subject pulls me in.",
         "overview": [
-          "Drilling-floor and well-control trainer built around the IWCF Level 1 curriculum, WOCRM principles and IADC Rig Pass / Well Control Awareness material. Drills present situations rather than definitions, then ask for the decision under simulated time pressure.",
-          "Wrong answers branch into consequence paths so the penalty for a poor call is visible, not abstract. Right answers chain into the next stage of the scenario."
+          "An interactive drilling fundamentals simulator I built to go deeper into the subject than the IWCF Level 1 curriculum took me. Live instruments, formation-by-formation geology, a pressure window with safe zones and kick/loss limits, and the controls a driller actually works with — WOB, RPM, pump rate, BOP.",
+          "I built it to turn dense technical content into something I could see, touch and play with. I drill through formations, watch pore pressure rise, adjust mud weight to stay in the safe window, handle connections, and see what happens when I don't. Guided tutorials walk through the fundamentals, and I'm always tweaking the sim to go further."
         ],
         "highlights": [
-          "Curriculum mapped to IWCF L1 and WOCRM outcomes",
-          "Decision-point scenarios: kick detection, shut-in, circulation",
-          "Consequence paths for wrong answers",
-          "Knowledge checks between modules with spaced repetition"
+          "Live instruments: MD/TVD, MW with ECD, PP with fracture gradient, ROP, SPP, pit volume, background gas, torque",
+          "Driller controls: weight on bit, rotary speed, pump rate, pumps on/off, make-connection, shut-in / close BOP",
+          "Formation geology with pre-drill prognosis — pore pressure ranges and expected behaviour per formation",
+          "Pressure window visualization: pore pressure, mud weight, ECD, fracture gradient, safe window and kick/loss zones",
+          "Time controls (½x – 4x) and event log for reviewing decisions",
+          "Runs in the browser, no install"
         ]
       },
       "rigging-route-planner": {
         "title": "Rigging route planner",
-        "blurb": "Lay out the rigging path for a lift: anchor points, sling geometry, exclusion zones and load path — checked against the rules I was drilling on.",
-        "what": "Plan a lift end-to-end: anchor points, sling geometry, load path and exclusion zones — checked against the rigging rules I was drilling on. Sits alongside the crane simulator as the \"plan it\" step before the \"do it\" step.",
-        "taught": "The planner made me argue every choice out loud before the lift. By the time you press go the justification is already in your head — which is where it needs to be when a supervisor asks.",
+        "blurb": "A planning tool for lifts: hoist positions, angles, load weight distribution across anchor points, and obstacle clearance — over, under, and between.",
+        "what": "A planning tool for lifts: hoist positions, angles, load weight distribution across anchor points, and obstacle clearance — over, under, and between. Built during Riggerkurs and used throughout the planning phase of the course, and praised by the instructor.",
+        "taught": "Hours of planning with the tool sharpened my visualization of angles, spatial awareness, and instinct for lift geometry — seeing a setup and knowing immediately whether it works.",
         "overview": [
-          "Interactive planner for rigging a lift from scratch. Set the load, pick the slings and shackles, place the anchor points, then draw the load path. The planner calculates sling angles and capacities and flags anything that fails against G11 / NS 9610.",
-          "Designed to work as the preparation step before the crane simulator — you plan the lift here, then execute it there. If the plan is wrong, the sim shows you why."
+          "An interactive planner I built for rigging lifts. I place the load, set hoist positions, define anchor points, and route the load path around obstacles — over, under, and between. The planner shows hoist angles and how weight distributes across the anchors in real time.",
+          "I built it during Riggerkurs to plan the course exercises before executing them. The team ran our plans through it, and the instructor praised the tool."
         ],
         "highlights": [
-          "Interactive lift setup with load, rigging hardware and obstacles",
-          "Automatic sling angle and capacity calculations",
-          "Load path visualisation with exclusion zones",
-          "Rule checks aligned with G11 and NS 9610 standards"
-        ]
-      },
-      "offshore-knowledge-pipeline": {
-        "title": "Offshore knowledge pipeline",
-        "blurb": "Autonomous AI pipeline that curates NORSOK, IWCF and IADC material into a structured vault, then generates study guides, quizzes and exams.",
-        "what": "Autonomous AI pipeline that curates offshore domain knowledge (NORSOK, IWCF, IADC) into a structured vault, then generates study guides, quizzes and exams from it.",
-        "taught": "Shaping raw standards into tight, exam-shaped questions forced me to internalise the material far more than reading ever did. Also a lesson in keeping the source of truth auditable.",
-        "overview": [
-          "The ground-truth layer behind the other three tools. An autonomous pipeline ingests NORSOK standards, the IWCF curriculum and IADC Rig Pass / Well Control material, then normalises everything into a structured vault with versioned citations back to source.",
-          "Study guides, quizzes and practice exams are generated from the vault on demand, weighted by topic so a weak area gets more repetition. Every generated question carries a pointer back to the source paragraph it came from — auditable, not hallucinated."
-        ],
-        "highlights": [
-          "Source-ingested pipeline for NORSOK, IWCF and IADC material",
-          "Structured vault with per-fact source citations",
-          "Auto-generated study guides per topic",
-          "Practice exam generator with weighted topic coverage",
-          "Feeds the other three tools with ground-truth content"
+          "Interactive lift setup: load, hoists, anchor points, obstacles",
+          "Live hoist angle readouts as the geometry changes",
+          "Load weight distribution across anchor points",
+          "Obstacle handling — over, under, and between",
+          "Runs in the browser, no install"
         ]
       }
     }

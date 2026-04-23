@@ -15,7 +15,7 @@ const { projects: tools } = useProjects()
       <p class="mt-8 max-w-xl text-base leading-relaxed text-slate-700">
         {{ $t('tools.lede') }}
       </p>
-      <p class="mt-6 inline-flex max-w-xl items-start gap-2 border-l-2 border-amber-500 bg-amber-50 px-3 py-2 text-sm text-amber-900">
+      <p class="mt-6 inline-flex max-w-xl items-start gap-2 border-l-2 border-amber-500 bg-amber-50 px-3 py-2 text-sm text-amber-900 lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" class="mt-0.5 h-4 w-4 shrink-0">
           <path d="M12 9v4M12 17h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" stroke-linecap="round" stroke-linejoin="round" />
         </svg>

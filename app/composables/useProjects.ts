@@ -21,27 +21,21 @@ type ProjectMeta = {
 const meta: ProjectMeta[] = [
   {
     slug: 'overhead-crane-simulator',
-    year: '2025',
+    year: '2026',
     image: '/projects/overhead-crane.jpg',
     live: 'https://g4-simulator.vercel.app/'
   },
   {
     slug: 'drilling-operations-trainer',
-    year: '2025',
+    year: '2026',
     image: '/projects/drilling-tool.jpg',
-    live: 'https://drilling-fundamentals-ynd9-43k60jmwm-brunobueno95s-projects.vercel.app/'
+    live: 'https://drilling-fundamentals-ynd9.vercel.app/'
   },
   {
     slug: 'rigging-route-planner',
-    year: '2025',
+    year: '2026',
     image: '/projects/rigging-planner.jpg',
     live: 'https://rigging-planner-s4fb.vercel.app/'
-  },
-  {
-    slug: 'offshore-knowledge-pipeline',
-    year: '2025',
-    image: '/projects/offshore-knowledge-pipeline.jpg',
-    live: null
   }
 ]
 

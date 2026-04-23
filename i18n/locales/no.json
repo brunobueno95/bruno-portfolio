@@ -34,8 +34,8 @@
       "kicker": "Dessuten",
       "title1": "Bygger verktøy",
       "title2": "som utdyper kunnskapen min.",
-      "body1": "Softwareutvikler med 3 års yrkeserfaring, fortsatt bygger, bare for et annet sett med problemer nå. Verktøyene under støtter min egen offshore-forberedelse: en simulator for traverskran-løft, en boreoperasjonstrener, en riggerrute-planlegger, og en AI-pipeline som gjør NORSOK-, IWCF- og IADC-materiale til strukturert studieinnhold.",
-      "body2": "På dekk betyr det rask læring, komfort med skriftlige prosedyrer, og vanen med å gjøre tykt teknisk materiale om til noe et mannskap faktisk kan bruke. En ressurs som kommer i tillegg, ikke i stedet for.",
+      "body1": "Dette er personlige verktøy jeg har bygget for å forberede meg på offshore-arbeid: en simulator for traverskran-løft, en simulator for grunnleggende boring, og en riggerrute-planlegger.",
+      "body2": "Jeg liker å gjøre ny kunnskap fra kurs om til modeller jeg kan samhandle med og lære videre fra. Den vanen er hvordan jeg går fra null til kompetent raskt — og hvordan jeg får innholdet til å feste seg.",
       "seeAll": "Se alle verktøy →"
     },
     "background": {
@@ -93,8 +93,7 @@
   "additionalTraining": {
     "iwcf": "IWCF — Level 1 Grunnleggende boring",
     "humanFactors": "Menneskelige faktorer i olje og gass — Global Network of Companies",
-    "wocrm": "IWCF — Well Operations Crew Resource Management",
-    "iwcfL2": "IWCF — Level 2 Drilling Well Control"
+    "wocrm": "IWCF — Well Operations Crew Resource Management"
   },
   "about": {
     "kicker": "Om",
@@ -110,7 +109,7 @@
     },
     "bio3": {
       "text": "Offshore er der jeg vil være. {strong} Norsk olje og gass har bygget mye av det som gjør dette landet flott, og jeg vil bidra til det direkte.",
-      "strong": "Fysisk arbeid med reelle konsekvenser. Mentale utfordringer som bygger styrke. Et team du er avhengig av og som er avhengig av deg."
+      "strong": "Fysisk arbeid med reelle konsekvenser. Mentale utfordringer som bygger styrke. Et team jeg er avhengig av og som er avhengig av meg."
     },
     "bio4": {
       "text": "Sertifiseringer i hende: {strong} planlagt 15. mai 2026. Tilgjengelig for mobilisering.",
@@ -207,7 +206,7 @@
     "kicker": "Verktøy",
     "title1": "Verktøy jeg har bygd",
     "title2": "for overgangen til offshore.",
-    "lede": "Fire verktøy bygd under overgangen fra software til offshore-arbeid. Ikke porteføljearbeider — de er stillaset jeg brukte for å studere, øve og holde sertifiseringsløpet på sporet. Hvert verktøy løste et reelt problem i forberedelsen og ble hengende fordi det fortsatte å løse det.",
+    "lede": "Verktøy bygd under overgangen fra software til offshore-arbeid. Ikke porteføljearbeider — de er stillaset jeg brukte for å studere, øve og holde sertifiseringsløpet på sporet. Hvert verktøy løste et reelt problem i forberedelsen og ble hengende fordi det fortsatte å løse det.",
     "backPrefix": "Hovedtilbudet er offshore-arbeid.",
     "backLink": "Se sertifiseringene →"
   },
@@ -278,67 +277,53 @@
     "items": {
       "overhead-crane-simulator": {
         "title": "Traverskran-simulator",
-        "blurb": "Treningssimulator for bro- og traverskraner — løfteplanlegging, signalgivning og lasthåndtering bygget for min egen G4-forberedelse.",
-        "what": "Treningssimulator for bro- og traverskraner. Løfteplanlegging, signalgivning og lasthåndtering mot en virtuell rigg — bygget for å forsterke G4-materialet med scenario-repetisjon.",
-        "taught": "Å bygge fysikken og signallogikken tvang meg til å forstå feilmodusene, ikke bare prosedyretrinnene. Feil i simulatoren er billige — det er nettopp det som gjør dem nyttige.",
+        "blurb": "En enkel kransimulator med presis lastfysikk. Bygget for å fortsette å øve etter at G4-kurset var ferdig.",
+        "what": "En enkel kransimulator med presis lastfysikk. Bygget for å fortsette å øve etter at G4-kurset var ferdig — når jeg ikke lenger har tilgang til en ekte kran, men fortsatt vil skjerpe følelsen. Unngå svinginger, stoppe svinginger, forutse, lese bevegelse. En måte å bygge muskelminne og erfaring på uten konsekvenser.",
+        "taught": "Å skrive fysikken tvang meg til å forstå hvorfor laster oppfører seg slik de gjør. Og så snart det fungerte, ble det tingen jeg faktisk bruker — et sted å holde følelsen levende mellom kurs, der feil koster ingenting.",
         "overview": [
-          "Nettleserbasert simulator bygd som forberedelse til G4-sertifisering for bro- og traverskran. Dekker delene av operatørpensumet bokstudier pleier å gå glipp av — timingen, signalgivningen og skjønnsvurderingene under last.",
-          "Scenarioene spenner fra rutinemessige løft til kanttilfeller: overføring av hengende last, blokkerte baner, vindlast på utendørsbås. Hvert scenario har ett korrekt operatørsvar og flere feil med synlige konsekvenser."
+          "En nettleserbasert kransimulator jeg har bygd med presis lastfysikk. Jeg bruker den for å fortsette å øve etter at G4-kurset var ferdig — når jeg ikke lenger hadde tilgang til en ekte kran, men fortsatt ville skjerpe følelsen.",
+          "Fokuset mitt var lastens oppførsel: sving, bevegelsesenergi, forutse, stoppe en sving rent. Ting som bare faller på plass med timer på kontrollene. Et sted for meg å legge inn de timene, der feil koster ingenting."
         ],
         "highlights": [
-          "Scenariomotor med en blanding av rutine- og kanttilfelle-løft",
-          "Lastsving, vind og bom-deflekterings-fysikk",
-          "Signalgivnings-øvelser med visuelle og lydmessige hint",
-          "Rigg-plan-validering mot standard løfteregler"
+          "Presis lastfysikk — sving, bevegelsesenergi, treghet",
+          "Bro- og løpekatt-kontroller, taulengde, variabel lastvekt",
+          "Øv på å stoppe svinginger, lese bevegelse, forutse",
+          "Kjører i nettleseren, ingen installasjon"
         ]
       },
       "drilling-operations-trainer": {
-        "title": "Boreoperasjonstrener",
-        "blurb": "Scenario-basert trener som dekker well control-grunnleggende og boredekks-prosedyrer. Bygget for å forsterke IWCF- og WOCRM-materiale.",
-        "what": "Scenario-basert trener som dekker boredekks-prosedyrer og well control-grunnleggende. Bygget for å forsterke IWCF Level 1-, WOCRM- og IADC Rig Pass / Well Control Awareness-materiale med repetisjon.",
-        "taught": "Å gjøre passiv lesing om til aktiv beslutningstaking under tidspress endret hvordan stoffet festet seg. Jeg husker scenarioene; definisjonene fulgte etter.",
+        "title": "Simulator for grunnleggende boring",
+        "blurb": "En interaktiv måte å gå dypere inn i grunnleggende boring på — langt utover innholdet som dekkes på IWCF Level 1.",
+        "what": "En interaktiv måte å gå dypere inn i grunnleggende boring på — langt utover innholdet som dekkes på IWCF Level 1. Tydelig visualisering, live-instrumenter, interaktive kontroller. En måte å jobbe med konseptene på i stedet for bare å lese om dem. Bygget for å gjøre tungt teknisk innhold om til noe jeg kan se, ta på og leke med.",
+        "taught": "Å lese om pit gain, mudvekt og pumpetrykk er én ting — å se dem bevege seg, og kontrollere det som beveger dem, er en annen. Dette verktøyet har lært meg mye, både fra å bygge det og bruke det. Jeg justerer det stadig for å gjøre det mer realistisk, og jo mer jeg bygger, jo mer trekker temaet meg inn.",
         "overview": [
-          "Boredekk- og well control-trener bygget rundt IWCF Level 1-pensumet, WOCRM-prinsipper og IADC Rig Pass / Well Control Awareness-materiale. Øvelsene presenterer situasjoner i stedet for definisjoner, og ber om en beslutning under simulert tidspress.",
-          "Feil svar forgreiner seg til konsekvens-baner så straffen for en dårlig avgjørelse er synlig, ikke abstrakt. Riktige svar kjeder seg videre til neste steg i scenarioet."
+          "En interaktiv simulator for grunnleggende boring jeg har bygd for å gå dypere inn i temaet enn IWCF Level 1-pensumet tok meg. Live-instrumenter, formasjon-for-formasjon-geologi, et trykkvindu med trygge soner og kick/tap-grenser, og kontrollene en borer faktisk jobber med — WOB, RPM, pumperate, BOP.",
+          "Jeg bygde den for å gjøre tungt teknisk innhold om til noe jeg kunne se, ta på og leke med. Jeg borer gjennom formasjoner, ser poretrykket stige, justerer mudvekten for å holde meg i det trygge vinduet, håndterer connections, og ser hva som skjer når jeg ikke gjør det. Guidede opplæringer går gjennom det grunnleggende, og jeg finjusterer simulatoren stadig for å ta den videre."
         ],
         "highlights": [
-          "Pensum kartlagt mot IWCF L1- og WOCRM-læringsmål",
-          "Beslutningspunkt-scenarier: kick-deteksjon, shut-in, sirkulasjon",
-          "Konsekvens-baner for feil svar",
-          "Kunnskapssjekker mellom moduler med repetisjon"
+          "Live-instrumenter: MD/TVD, MW med ECD, PP med fracture gradient, ROP, SPP, pit-volum, bakgrunnsgass, dreiemoment",
+          "Borer-kontroller: weight on bit, rotasjonshastighet, pumperate, pumper av/på, make-connection, shut-in / lukke BOP",
+          "Formasjonsgeologi med pre-drill-prognose — poretrykksområder og forventet oppførsel per formasjon",
+          "Trykkvindu-visualisering: poretrykk, mudvekt, ECD, fracture gradient, trygt vindu og kick/tap-soner",
+          "Tidskontroller (½x – 4x) og hendelseslogg for å gjennomgå beslutninger",
+          "Kjører i nettleseren, ingen installasjon"
         ]
       },
       "rigging-route-planner": {
         "title": "Riggerrute-planlegger",
-        "blurb": "Legg opp rigge-banen for et løft: festepunkter, stroppegeometri, eksklusjonssoner og lastbane — sjekket mot reglene jeg øvde på.",
-        "what": "Planlegg et løft fra start til slutt: festepunkter, stroppegeometri, lastbane og eksklusjonssoner — sjekket mot rigg-reglene jeg øvde på. Står ved siden av kran-simulatoren som \"planlegg det\"-steget før \"gjør det\"-steget.",
-        "taught": "Planleggeren fikk meg til å argumentere for hvert valg høyt før løftet. Når du trykker på start er begrunnelsen allerede i hodet — som er der den må være når en overordnet spør.",
+        "blurb": "Et planleggingsverktøy for løft: heisposisjoner, vinkler, lastfordeling over festepunkter, og klaring mot hindringer — over, under og mellom.",
+        "what": "Et planleggingsverktøy for løft: heisposisjoner, vinkler, lastfordeling over festepunkter, og klaring mot hindringer — over, under og mellom. Bygget under Riggerkurs og brukt gjennom planleggingsfasen av kurset, og rost av instruktøren.",
+        "taught": "Timer med planlegging i verktøyet skjerpet visualiseringen min av vinkler, romlig forståelse, og instinktet for løftegeometri — å se et oppsett og umiddelbart vite om det fungerer.",
         "overview": [
-          "Interaktiv planlegger for å rigge et løft fra bunnen av. Still inn lasten, velg stropper og sjakler, plasser festepunkter, og tegn lastbanen. Planleggeren beregner stroppvinkler og kapasiteter og flagger alt som feiler mot G11 / NS 9610.",
-          "Designet til å fungere som forberedelsessteget før kran-simulatoren — du planlegger løftet her, så utfører det der. Hvis planen er feil, viser simulatoren deg hvorfor."
+          "En interaktiv planlegger jeg har bygd for rigging av løft. Jeg plasserer lasten, setter heisposisjoner, definerer festepunkter, og ruter lastbanen rundt hindringer — over, under og mellom. Planleggeren viser heisvinkler og hvordan vekten fordeles over festepunktene i sanntid.",
+          "Jeg bygde den under Riggerkurs for å planlegge kursøvelsene før vi utførte dem. Teamet kjørte planene våre gjennom den, og instruktøren roste verktøyet."
         ],
         "highlights": [
-          "Interaktivt løfteoppsett med last, riggeutstyr og hindringer",
-          "Automatiske stroppvinkel- og kapasitetsberegninger",
-          "Visualisering av lastbane med eksklusjonssoner",
-          "Regelsjekk i tråd med G11- og NS 9610-standarder"
-        ]
-      },
-      "offshore-knowledge-pipeline": {
-        "title": "Offshore kunnskapspipeline",
-        "blurb": "Autonom AI-pipeline som kurerer NORSOK-, IWCF- og IADC-materiale til et strukturert arkiv, og genererer studieveiledninger, quizer og eksamener.",
-        "what": "Autonom AI-pipeline som kurerer offshore-fagkunnskap (NORSOK, IWCF, IADC) inn i et strukturert arkiv, og genererer studieveiledninger, quizer og eksamener derfra.",
-        "taught": "Å forme rå standarder til stramme, eksamensformede spørsmål tvang meg til å internalisere stoffet langt mer enn lesing noen gang gjorde. Også en lekse i å holde sannhetskilden revisjonsbar.",
-        "overview": [
-          "Sannhetslaget bak de tre andre verktøyene. En autonom pipeline tar inn NORSOK-standarder, IWCF-pensumet og IADC Rig Pass / Well Control-materiale, og normaliserer alt inn i et strukturert arkiv med versjonerte henvisninger tilbake til kilden.",
-          "Studieveiledninger, quizer og øvelses-eksamener genereres fra arkivet på forespørsel, vektet etter tema slik at et svakt område får mer repetisjon. Hvert genererte spørsmål bærer en peker tilbake til kildeavsnittet det kom fra — revisjonsbart, ikke hallusinert."
-        ],
-        "highlights": [
-          "Kilde-basert pipeline for NORSOK-, IWCF- og IADC-materiale",
-          "Strukturert arkiv med per-fakta kildehenvisninger",
-          "Automatisk genererte studieveiledninger per tema",
-          "Øvelses-eksamen-generator med vektet temadekning",
-          "Mater de tre andre verktøyene med sannhetsgrunnlag"
+          "Interaktivt løfteoppsett: last, heiser, festepunkter, hindringer",
+          "Live heisvinkel-avlesning når geometrien endres",
+          "Lastfordeling over festepunkter",
+          "Hindringshåndtering — over, under og mellom",
+          "Kjører i nettleseren, ingen installasjon"
         ]
       }
     }

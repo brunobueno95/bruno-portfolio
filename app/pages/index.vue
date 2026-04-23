@@ -119,7 +119,6 @@ const additionalTraining: TrainingMeta[] = [
     image: "/additional-training/iwcf-level1-image.jpg",
   },
   { short: "WOCRM", key: "wocrm", file: null, image: null },
-  { short: "IWCF L2", key: "iwcfL2", file: null, image: null, enrolled: true },
   {
     short: "Human Factors",
     key: "humanFactors",
