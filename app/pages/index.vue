@@ -202,49 +202,50 @@ const statusLabel = (status: CertStatus) =>
 
     <!-- Secondary: software / tools -->
     <section class="border-t border-slate-200">
-      <div class="mx-auto max-w-6xl px-6 py-16">
-        <div class="grid gap-10 md:grid-cols-5">
+      <div class="mx-auto max-w-6xl px-6 py-10">
+        <div class="grid gap-6 md:grid-cols-5">
           <div class="md:col-span-2">
             <p class="text-[11px] uppercase tracking-[0.25em] text-slate-500">
               {{ $t('home.also.kicker') }}
             </p>
-            <h2 class="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
+            <h2 class="mt-2 text-xl font-semibold tracking-tight md:text-2xl">
               {{ $t('home.also.title1') }}
               <span class="block text-slate-500">{{ $t('home.also.title2') }}</span>
             </h2>
           </div>
-          <div class="space-y-5 leading-relaxed text-slate-700 md:col-span-3">
+          <div class="space-y-3 text-sm leading-relaxed text-slate-700 md:col-span-3">
             <p>{{ $t('home.also.body1') }}</p>
             <p>{{ $t('home.also.body2') }}</p>
           </div>
         </div>
 
         <!-- Tool previews -->
-        <div class="mt-14 grid gap-10 md:grid-cols-2">
-          <NuxtLink
-            v-for="tool in toolPreviews"
-            :key="tool.slug"
-            :to="localePath('/projects')"
-            class="group block"
-          >
-            <SmartImage
-              :src="tool.image"
-              :alt="tool.title"
-              loading="lazy"
-              class="aspect-[4/3] w-full rounded-sm border border-slate-200"
-              inner-class="group-hover:scale-[1.02]"
-            />
-            <p class="mt-4 text-[11px] uppercase tracking-[0.25em] text-slate-500">
-              {{ tool.year }}
-            </p>
-            <h3 class="mt-2 text-lg font-medium underline-offset-4 group-hover:underline">
-              {{ tool.title }}
-            </h3>
-            <p class="mt-2 text-sm text-slate-600">{{ tool.blurb }}</p>
-          </NuxtLink>
-        </div>
+        <ul class="mt-8 grid gap-x-6 gap-y-4 sm:grid-cols-2 md:grid-cols-3">
+          <li v-for="tool in toolPreviews" :key="tool.slug">
+            <NuxtLink
+              :to="localePath('/projects')"
+              class="group flex items-center gap-3"
+            >
+              <SmartImage
+                :src="tool.image"
+                :alt="tool.title"
+                loading="lazy"
+                class="h-12 w-16 shrink-0 rounded-sm border border-slate-200"
+                inner-class="group-hover:scale-[1.02]"
+              />
+              <div class="min-w-0">
+                <h3 class="truncate text-sm font-medium underline-offset-4 group-hover:underline">
+                  {{ tool.title }}
+                </h3>
+                <p class="mt-0.5 text-[11px] uppercase tracking-[0.2em] text-slate-500">
+                  {{ tool.year }}
+                </p>
+              </div>
+            </NuxtLink>
+          </li>
+        </ul>
 
-        <div class="mt-12">
+        <div class="mt-8">
           <NuxtLink
             :to="localePath('/projects')"
             class="text-sm font-medium underline underline-offset-4 decoration-slate-400 hover:decoration-slate-900"
