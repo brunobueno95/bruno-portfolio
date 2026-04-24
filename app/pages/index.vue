@@ -21,7 +21,12 @@ const certifications: CertMeta[] = [
     status: null,
     file: "/certifications/gsk-diplom.pdf",
   },
-  { key: "Helseattest", short: "Helseattest", status: null, file: null },
+  {
+    key: "Helseattest",
+    short: "Helseattest",
+    status: null,
+    file: "/certifications/helseattest.pdf",
+  },
   {
     key: "G11",
     short: "G11",
@@ -118,7 +123,6 @@ const additionalTraining: TrainingMeta[] = [
     file: "/additional-training/iwcf-level1.pdf",
     image: "/additional-training/iwcf-level1-image.jpg",
   },
-  { short: "WOCRM", key: "wocrm", file: null, image: null },
   {
     short: "Human Factors",
     key: "humanFactors",
