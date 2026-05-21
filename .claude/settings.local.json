@@ -15,7 +15,8 @@
       "Bash(mv \"app/assets/images/certifications/G11 diplom - Bruno Bernardo Rossigneux De Oliveira Bueno \\(1\\).pdf\" \"public/certifications/g11-diplom.pdf\")",
       "Bash(npx nuxt *)",
       "WebSearch",
-      "WebFetch(domain:unsplash.com)"
+      "WebFetch(domain:unsplash.com)",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('c:/Users/bruno/Documents/projects/bruno-portfolio/i18n/locales/en.json','utf8'\\)\\); JSON.parse\\(require\\('fs'\\).readFileSync\\('c:/Users/bruno/Documents/projects/bruno-portfolio/i18n/locales/no.json','utf8'\\)\\); console.log\\('OK'\\)\")"
     ]
   }
 }

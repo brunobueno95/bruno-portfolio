@@ -82,8 +82,8 @@
       "description": "Operatørsertifikat for bro- og traverskran."
     },
     "G20": {
-      "name": "G20 Hydraulisk kran",
-      "description": "Operatørsertifikat for hydraulisk kran. Kurs planlagt 15.05.2026."
+      "name": "G20 Fastmontert hydraulisk kran",
+      "description": "Operatørsertifikat for fastmontert hydraulisk kran."
     },
     "Truck": {
       "name": "Truckførerkurs T1 / T2 / T3 / T4",
@@ -111,8 +111,8 @@
       "strong": "Fysisk arbeid med reelle konsekvenser. Mentale utfordringer som bygger styrke. Et team jeg er avhengig av og som er avhengig av meg."
     },
     "bio4": {
-      "text": "Sertifiseringer i hende: {strong} planlagt 15. mai 2026. Tilgjengelig for mobilisering.",
-      "strong": "GSK, G11, NOG 113 Fallsikring, Riggerkurs, G4 Traverskran, Truck T1–T2–T3–T4. G20 Hydraulisk Kran"
+      "text": "Sertifiseringer i hende: {strong}. Tilgjengelig for mobilisering.",
+      "strong": "GSK, G11, NOG 113 Fallsikring, Riggerkurs, G4 Traverskran, G20 Fastmontert hydraulisk kran, Truck T1–T2–T3–T4"
     },
     "experienceKicker": "Erfaring",
     "experienceTitle": "Arbeidshistorikk.",
@@ -274,6 +274,22 @@
     "whatItTaught": "Hva det lærte meg",
     "keyDetails": "Detaljer",
     "items": {
+      "g20-hydraulic-crane-simulator": {
+        "title": "G20 Fastmontert hydraulisk kran-simulator",
+        "blurb": "En simulator for fastmontert hydraulisk kran med presis lastfysikk. Bygget for å fortsette å øve etter at G20-kurset Fastmontert hydraulisk kran var ferdig.",
+        "what": "En simulator for fastmontert hydraulisk kran med presis lastfysikk. Bygget for å fortsette å øve etter at G20-kurset Fastmontert hydraulisk kran var ferdig, når jeg ikke lenger har tilgang til en ekte kran, men fortsatt vil skjerpe følelsen. Sving, bom-vinkel, vinsj, forutse, lese sving. En måte å bygge muskelminne og bli kjent med kranen på, uten konsekvenser.",
+        "taught": "Å skrive fysikken tvang meg til å forstå hvorfor lasten oppfører seg slik den gjør på en svingbar bom: hvordan kroken reagerer på rotasjon, hvorfor en jevn sving kommer fra å forutse i stedet for å reagere. Et sted å holde følelsen levende mellom øktene, der feil koster ingenting.",
+        "overview": [
+          "En nettleserbasert simulator for G20 Fastmontert hydraulisk kran jeg har bygd med presis lastfysikk. Jeg bruker den for å fortsette å øve etter at G20-kurset Fastmontert hydraulisk kran var ferdig, når jeg ikke lenger hadde tilgang til en ekte kran, men fortsatt ville skjerpe følelsen.",
+          "Fokuset mitt var lastens oppførsel: sving, bevegelsesenergi, forutse, stoppe en sving rent under sving og bom-vinkel. Ting som bare faller på plass med timer på kontrollene. Et sted for meg å legge inn de timene, der feil koster ingenting."
+        ],
+        "highlights": [
+          "Presis lastfysikk: sving, bevegelsesenergi, treghet under sving og bom-vinkel",
+          "Kontroller for fastmontert hydraulisk kran: sving, hovedbom, jib, vinsj",
+          "Øv på å stoppe svinginger, lese bevegelse, forutse",
+          "Kjører i nettleseren, ingen installasjon"
+        ]
+      },
       "overhead-crane-simulator": {
         "title": "Traverskran-simulator",
         "blurb": "En enkel kransimulator med presis lastfysikk. Bygget for å fortsette å øve etter at G4-kurset var ferdig.",

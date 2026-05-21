@@ -82,8 +82,8 @@
       "description": "Operator certificate for bridge and overhead (travers) cranes."
     },
     "G20": {
-      "name": "G20 Hydraulic Crane",
-      "description": "Hydraulic crane operator certificate. Course scheduled 15.05.2026."
+      "name": "G20 Fixed-Mount Hydraulic Crane",
+      "description": "Operator certificate for fixed-mounted hydraulic cranes."
     },
     "Truck": {
       "name": "Truck Operator T1 / T2 / T3 / T4",
@@ -111,8 +111,8 @@
       "strong": "Physical work with real stakes. Mental challenges that build strength. A team I depend on and who depends on me."
     },
     "bio4": {
-      "text": "Certifications in hand: {strong} scheduled for 15 May 2026. Available to mobilise.",
-      "strong": "GSK, G11, NOG 113 Fallsikring, Riggerkurs, G4 Traverskran, Truck T1–T2–T3–T4. G20 Hydraulisk Kran"
+      "text": "Certifications in hand: {strong}. Available to mobilise.",
+      "strong": "GSK, G11, NOG 113 Fallsikring, Riggerkurs, G4 Traverskran, G20 Fastmontert hydraulisk kran, Truck T1–T2–T3–T4"
     },
     "experienceKicker": "Experience",
     "experienceTitle": "Work history.",
@@ -274,6 +274,22 @@
     "whatItTaught": "What it taught me",
     "keyDetails": "Key details",
     "items": {
+      "g20-hydraulic-crane-simulator": {
+        "title": "G20 fixed-mount hydraulic-crane simulator",
+        "blurb": "A fixed-mount hydraulic-crane simulator with accurate load physics. Built to keep practicing after the G20 Fastmontert hydraulisk kran course ended.",
+        "what": "A fixed-mount hydraulic-crane simulator with accurate load physics. Built to keep practicing after the G20 Fastmontert hydraulisk kran course ended, when I no longer have access to a real crane but still want to sharpen the feel. Slew, luff, hoist, anticipation, reading swing. A way to build muscle memory and get familiar with the crane, without consequences.",
+        "taught": "Writing the physics forced me to understand why the load behaves the way it does on a slewing boom: how the hook responds to rotation, why a smooth swing comes from anticipation rather than reaction. A place to keep the feel alive between sessions, where mistakes cost nothing.",
+        "overview": [
+          "A browser-based G20 fixed-mount hydraulic-crane simulator I built with accurate load physics. I use it to keep practicing after the G20 Fastmontert hydraulisk kran course ended, when I no longer had access to a real crane but still wanted to sharpen the feel.",
+          "My focus was the behaviour of the load: swing, momentum, anticipation, stopping a swing cleanly during slew and luff. Things that only really click with hours on the controls. A place for me to put those hours in, where mistakes cost nothing."
+        ],
+        "highlights": [
+          "Accurate load physics: swing, momentum, inertia under slew and luff",
+          "Fixed-mount crane controls: slew, main boom, jib, winch",
+          "Practice stopping swings, reading momentum, anticipating movement",
+          "Runs in the browser, no install"
+        ]
+      },
       "overhead-crane-simulator": {
         "title": "Overhead-crane rig simulator",
         "blurb": "A simple crane simulator with accurate load physics. Built to keep practicing after the G4 course ended.",

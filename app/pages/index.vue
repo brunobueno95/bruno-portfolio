@@ -54,9 +54,8 @@ const certifications: CertMeta[] = [
   {
     key: "G20",
     short: "G20",
-    status: "scheduled",
-    file: null,
-    startDate: "15.05.2026",
+    status: null,
+    file: "/certifications/g-20-diplom.pdf",
   },
   {
     key: "Truck",

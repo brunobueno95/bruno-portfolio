@@ -8,10 +8,10 @@ export default defineNuxtConfig({
   ],
   i18n: {
     locales: [
-      { code: 'en', name: 'English', file: 'en.json' },
-      { code: 'no', name: 'Norsk', file: 'no.json' }
+      { code: 'no', name: 'Norsk', file: 'no.json' },
+      { code: 'en', name: 'English', file: 'en.json' }
     ],
-    defaultLocale: 'en',
+    defaultLocale: 'no',
     strategy: 'prefix_except_default',
     langDir: 'locales/',
     lazy: true,
@@ -19,7 +19,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      htmlAttrs: { lang: 'en' },
+      htmlAttrs: { lang: 'no' },
       title: 'Bruno Bueno',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },

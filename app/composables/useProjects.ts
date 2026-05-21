@@ -20,6 +20,12 @@ type ProjectMeta = {
 
 const meta: ProjectMeta[] = [
   {
+    slug: 'g20-hydraulic-crane-simulator',
+    year: '2026',
+    image: '/projects/g20-hydraulic-crane.jpg',
+    live: null
+  },
+  {
     slug: 'overhead-crane-simulator',
     year: '2026',
     image: '/projects/overhead-crane.jpg',
