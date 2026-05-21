@@ -23,7 +23,7 @@ const meta: ProjectMeta[] = [
     slug: 'g20-hydraulic-crane-simulator',
     year: '2026',
     image: '/projects/g20-hydraulic-crane.jpg',
-    live: null
+    live: 'https://g20-simulator.vercel.app/'
   },
   {
     slug: 'overhead-crane-simulator',
