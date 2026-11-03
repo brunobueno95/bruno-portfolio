@@ -9,17 +9,17 @@
   "home": {
     "hero": {
       "location": "Stavern · Norge",
-      "titleLead": "Roustabout og",
-      "titleMid": "dekksarbeider",
-      "titleEnd": "kandidat.",
-      "body": "Sterkt sikkerhetsfokus og lærer raskt. Komfortabel med å jobbe under press og følge prosedyrer. Ser etter en mulighet til å lære og utvikle meg på norsk sokkel, i dekk-, roustabout-, rigger- eller kranfører-stillinger. Bosatt i Stavern, kan mobiliseres på kort varsel.",
+      "titleLead": "Operatør for",
+      "titleMid": "kran, truck og terminal",
+      "titleEnd": "under opplæring.",
+      "body": "Sterkt sikkerhetsfokus og lærer raskt. Komfortabel med å jobbe under press og følge prosedyrer. Ser etter praktisk arbeid med utstyr: kran, truck, terminal, løft, rigging og industri. Bosatt i Stavern, ti minutter fra Larvik havn, fleksibel med oppmøte og skift.",
       "ctaCv": "Last ned CV (PDF)",
       "ctaCvView": "eller les i nettleseren →",
       "ctaContact": "Kontakt"
     },
     "certs": {
       "kicker": "Sertifiseringer",
-      "title": "Offshore-kvalifikasjoner.",
+      "title": "Sertifiseringer og kvalifikasjoner.",
       "lede": "Kursbevis og sertifikatkort vises i sin helhet under hver oppføring.",
       "scheduled": "Planlagt",
       "placeholderLabel": "Sertifikat: {short}",
@@ -34,7 +34,7 @@
       "kicker": "Dessuten",
       "title1": "Bygger verktøy",
       "title2": "som utdyper kunnskapen min.",
-      "body1": "Dette er personlige verktøy jeg har bygget for å forberede meg på offshore-arbeid: en simulator for traverskran-løft, en simulator for grunnleggende boring, og en riggerrute-planlegger.",
+      "body1": "Dette er personlige verktøy jeg har bygget for å utdype forståelsen min av løft, kran og rigging: en simulator for traverskran-løft, en simulator for fastmontert hydraulisk kran, en riggerrute-planlegger, og en simulator for grunnleggende boring.",
       "body2": "Jeg liker å gjøre ny kunnskap fra kurs om til modeller jeg kan samhandle med og lære videre fra. Den vanen er hvordan jeg går fra null til kompetent raskt, og hvordan jeg får innholdet til å feste seg.",
       "seeAll": "Se alle verktøy →"
     },
@@ -58,8 +58,8 @@
   },
   "certifications": {
     "GSK": {
-      "name": "GSK Grunnleggende sikkerhetskurs offshore",
-      "description": "RSS-20756. Norsk grunnleggende sikkerhet offshore som dekker sjøoverlevelse, brann, førstehjelp og HUET. Gyldig 03/2030."
+      "name": "GSK Grunnleggende sikkerhets- og beredskapsopplæring",
+      "description": "RSS-20756. Norsk grunnleggende sikkerhetsopplæring som dekker sjøoverlevelse, brann, førstehjelp og HUET. Gyldig 03/2030."
     },
     "Helseattest": {
       "name": "Helseattest sjøfolk/offshore",
@@ -70,8 +70,8 @@
       "description": "Rigging og signalgivning for løfteoperasjoner: stropper, sjakler og løfteutstyr."
     },
     "NOG113": {
-      "name": "NOG 113 / NS 9610 Fallsikring offshore",
-      "description": "Norsk olje og gass-standard for arbeid i høyden, selebruk og redning."
+      "name": "NOG 113 / NS 9610 Fallsikring",
+      "description": "Standard for arbeid i høyden, selebruk og redning, bredt brukt i olje og gass, industri og vindkraft."
     },
     "Rigger": {
       "name": "Riggerkurs (P-2.4 / P-4.4)",
@@ -99,19 +99,19 @@
     "title1": "Født i Rio,",
     "title2": "bosatt i Stavern.",
     "bio1": {
-      "text": "Dykkingen ga meg grunnlaget: {strong} i Norge, Filippinene, Mexico, Brasil og Honduras. Sikkerhet og situasjonsforståelse ble instinkt: utstyrskontroll, buddy-rutiner, beslutninger som teller. Det overføres direkte til dekksarbeid.",
+      "text": "Dykkingen ga meg grunnlaget: {strong} i Norge, Filippinene, Mexico, Brasil og Honduras. Sikkerhet og situasjonsforståelse ble instinkt: utstyrskontroll, buddy-rutiner, beslutninger som teller. Det overføres direkte til sikkerhetskritisk operativt arbeid, uansett om det er på kai, i terminal eller på dekk.",
       "strong": "1 000+ dykk som PADI- og CMAS-instruktør"
     },
     "bio2": {
-      "text": "Tre år i software lærte meg problemløsning under press, hvordan lese dokumentasjon og raskt sette meg inn i nye systemer. {strong} etter hvert som riggene blir mer instrumenterte og datadrevne.",
-      "strong": "Datakyndighet kommer til å bety mer offshore, ikke mindre,"
+      "text": "Tre år i software lærte meg problemløsning under press, hvordan lese dokumentasjon og raskt sette meg inn i nye systemer. {strong} etter hvert som terminaler, kraner og industriutstyr blir mer instrumenterte og datadrevne.",
+      "strong": "Datakyndighet betyr mer i moderne industri, ikke mindre,"
     },
     "bio3": {
-      "text": "Offshore er der jeg vil være. {strong} Norsk olje og gass har bygget mye av det som gjør dette landet flott, og jeg vil bidra til det direkte.",
+      "text": "Dette er retningen jeg har valgt bevisst. {strong} Jeg vil bygge en karriere innen løft, kran og industri i Norge, og over tid bli en pålitelig operatør det er verdt å lære opp.",
       "strong": "Fysisk arbeid med reelle konsekvenser. Mentale utfordringer som bygger styrke. Et team jeg er avhengig av og som er avhengig av meg."
     },
     "bio4": {
-      "text": "Sertifiseringer i hende: {strong}. Tilgjengelig for mobilisering.",
+      "text": "Sertifiseringer i hende: {strong}. Klar til å starte.",
       "strong": "GSK, G11, NOG 113 Fallsikring, Riggerkurs, G4 Traverskran, G20 Fastmontert hydraulisk kran, Truck T1–T2–T3–T4"
     },
     "experienceKicker": "Erfaring",
@@ -187,26 +187,26 @@
     "kicker": "Kontakt",
     "title1": "Tilgjengelighet og",
     "title2": "direkte kontakt.",
-    "body": "Henvendelser om offshore dekk-, rigger- og kranfører-stillinger er velkomne, enten rotasjon, dagrate eller lengre oppdrag. Jeg svarer innen én arbeidsdag, samme dag i norsk arbeidstid. For hastemobiliseringer er telefon raskere enn e-post.",
+    "body": "Henvendelser om terminal-, kran-, truck-, rigging- og industriarbeid er velkomne, både faste stillinger, læreplasser, vikariater og prosjektoppdrag. Jeg svarer innen én arbeidsdag, samme dag i norsk arbeidstid. For raske spørsmål er telefon raskere enn e-post.",
     "emailLabel": "E-post",
-    "emailLede": "Stillingsbeskrivelser, rotasjonsdetaljer, CV-forespørsler.",
+    "emailLede": "Stillingsbeskrivelser, oppstartsdetaljer, CV-forespørsler.",
     "phoneLabel": "Telefon",
     "phoneLede": "Kl. 07–20 foretrukket.",
     "basedLabel": "Bosatt i",
     "basedPlace": "Stavern, Norge",
-    "basedLede": "Sentraleuropeisk tid. Mobiliseringsradius: norsk sokkel og Nordsjøen.",
+    "basedLede": "Sentraleuropeisk tid. Oppmøteradius: Larvik, Sandefjord, Porsgrunn, Tønsberg og Grenland-området.",
     "availLabel": "Tilgjengelighet",
-    "availState": "Klar for rotasjon",
-    "availLede": "GSK gyldig til 03/2030, offshore helseattest gyldig til 03/2028. Kan mobiliseres på kort varsel.",
+    "availState": "Klar til å starte",
+    "availLede": "GSK gyldig til 03/2030, helseattest gyldig til 03/2028. Fleksibel med oppstart og skift.",
     "linkedinLabel": "LinkedIn",
     "linkedinLede": "Arbeidshistorikk, anbefalinger og felles kontakter."
   },
   "tools": {
     "kicker": "Verktøy",
     "title1": "Verktøy jeg har bygd",
-    "title2": "for overgangen til offshore.",
-    "lede": "Verktøy bygd under overgangen fra software til offshore-arbeid. Ikke porteføljearbeider, de er stillaset jeg brukte for å studere, øve og holde sertifiseringsløpet på sporet. Hvert verktøy løste et reelt problem i forberedelsen og ble hengende fordi det fortsatte å løse det.",
-    "backPrefix": "Hovedtilbudet er offshore-arbeid.",
+    "title2": "for å utdype faget mitt.",
+    "lede": "Verktøy jeg har bygd mens jeg har skaffet sertifiseringer innen kran, truck, rigging og boring. Ikke porteføljearbeider, de er stillaset jeg brukte for å studere, øve og holde sertifiseringsløpet på sporet. Hvert verktøy løste et reelt problem i forberedelsen og ble hengende fordi det fortsatte å løse det.",
+    "backPrefix": "Hovedtilbudet er operatørarbeid med kran, truck og løft.",
     "backLink": "Se sertifiseringene →"
   },
   "cv": {
@@ -220,10 +220,10 @@
     "profileLead": "Jeg har et sterkt sikkerhetsfokus og presterer godt i fysisk og mentalt krevende miljøer.",
     "profileEmphasis": "Dedikert, lærer raskt, alltid fokusert på å bli bedre.",
     "profileTail": "Komfortabel med å jobbe under press og følge prosedyrer, ser etter en mulighet til å lære og utvikle meg i en bransje jeg er dypt fascinert av.",
-    "target": "Dekksarbeider / Roustabout",
+    "target": "Operatør kran, truck og terminal",
     "certAvailable": "Kursbevis tilgjengelig på forespørsel.",
     "sections": {
-      "certifications": "Offshore-sertifiseringer",
+      "certifications": "Sertifiseringer",
       "safetyEmergency": "Sikkerhet & nødrespons",
       "liftingRigging": "Løft & rigging",
       "additionalTraining": "Tilleggsstudium",
@@ -344,7 +344,7 @@
     }
   },
   "footer": {
-    "byline": "Offshore dekk-, rigger- og kranfører-kandidat. Norsk sokkel, klar for rotasjon.",
+    "byline": "Operatør kran, truck og terminal under opplæring. Bosatt i Stavern.",
     "site": "Side",
     "direct": "Direkte",
     "location": "Stavern · Norge"

@@ -190,18 +190,8 @@ const onExpandLeave = (el: Element) => {
 
 <template>
   <div>
-    <!-- Hero: oil-rig backdrop + positioning + photo -->
+    <!-- Hero: clean dark backdrop + positioning + photo -->
     <section class="relative isolate overflow-hidden bg-black">
-      <NuxtImg
-        src="/images/hero-rig.jpg"
-        alt=""
-        aria-hidden="true"
-        loading="eager"
-        class="absolute inset-0 h-full w-full object-cover grayscale"
-      />
-      <div
-        class="absolute inset-0 bg-gradient-to-r from-black via-black/75 to-black/20"
-      />
       <div
         class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-black"
       />
