@@ -10,16 +10,16 @@
     "hero": {
       "location": "Stavern · Norge",
       "titleLead": "Operatør for",
-      "titleMid": "kran, truck og terminal",
-      "titleEnd": "under opplæring.",
-      "body": "Sterkt sikkerhetsfokus og lærer raskt. Komfortabel med å jobbe under press og følge prosedyrer. Ser etter praktisk arbeid med utstyr: kran, truck, terminal, løft, rigging og industri. Bosatt i Stavern, ti minutter fra Larvik havn, fleksibel med oppmøte og skift.",
+      "titleMid": "kran og løft",
+      "titleEnd": "onshore og offshore.",
+      "body": "Sterkt sikkerhetsfokus og lærer raskt. Komfortabel med å jobbe under press og følge prosedyrer. Ser etter praktisk operatørarbeid med kran, truck, løft og industri, både onshore og på norsk sokkel. Bosatt i Stavern, ti minutter fra Larvik havn, fleksibel med oppmøte, skift og rotasjon.",
       "ctaCv": "Last ned CV (PDF)",
       "ctaCvView": "eller les i nettleseren →",
       "ctaContact": "Kontakt"
     },
     "certs": {
       "kicker": "Sertifiseringer",
-      "title": "Sertifiseringer og kvalifikasjoner.",
+      "title": "Sertifiseringer: løft, kran og offshore-sikkerhet.",
       "lede": "Kursbevis og sertifikatkort vises i sin helhet under hver oppføring.",
       "scheduled": "Planlagt",
       "placeholderLabel": "Sertifikat: {short}",
@@ -34,7 +34,7 @@
       "kicker": "Dessuten",
       "title1": "Bygger verktøy",
       "title2": "som utdyper kunnskapen min.",
-      "body1": "Dette er personlige verktøy jeg har bygget for å utdype forståelsen min av løft, kran og rigging: en simulator for traverskran-løft, en simulator for fastmontert hydraulisk kran, en riggerrute-planlegger, og en simulator for grunnleggende boring.",
+      "body1": "Dette er personlige verktøy jeg har bygget for å utdype forståelsen min av løft, kran, rigging og offshore-boring: en simulator for traverskran-løft, en simulator for fastmontert hydraulisk kran, en riggerrute-planlegger, og en simulator for grunnleggende boring.",
       "body2": "Jeg liker å gjøre ny kunnskap fra kurs om til modeller jeg kan samhandle med og lære videre fra. Den vanen er hvordan jeg går fra null til kompetent raskt, og hvordan jeg får innholdet til å feste seg.",
       "seeAll": "Se alle verktøy →"
     },
@@ -58,8 +58,8 @@
   },
   "certifications": {
     "GSK": {
-      "name": "GSK Grunnleggende sikkerhets- og beredskapsopplæring",
-      "description": "RSS-20756. Norsk grunnleggende sikkerhetsopplæring som dekker sjøoverlevelse, brann, førstehjelp og HUET. Gyldig 03/2030."
+      "name": "GSK Grunnleggende sikkerhetskurs offshore",
+      "description": "RSS-20756. Norsk grunnleggende sikkerhet offshore som dekker sjøoverlevelse, brann, førstehjelp og HUET. Gyldig 03/2030."
     },
     "Helseattest": {
       "name": "Helseattest sjøfolk/offshore",
@@ -70,8 +70,8 @@
       "description": "Rigging og signalgivning for løfteoperasjoner: stropper, sjakler og løfteutstyr."
     },
     "NOG113": {
-      "name": "NOG 113 / NS 9610 Fallsikring",
-      "description": "Standard for arbeid i høyden, selebruk og redning, bredt brukt i olje og gass, industri og vindkraft."
+      "name": "NOG 113 / NS 9610 Fallsikring offshore",
+      "description": "Norsk olje og gass-standard for arbeid i høyden, selebruk og redning."
     },
     "Rigger": {
       "name": "Riggerkurs (P-2.4 / P-4.4)",
@@ -103,11 +103,11 @@
       "strong": "1 000+ dykk som PADI- og CMAS-instruktør"
     },
     "bio2": {
-      "text": "Tre år i software lærte meg problemløsning under press, hvordan lese dokumentasjon og raskt sette meg inn i nye systemer. {strong} etter hvert som terminaler, kraner og industriutstyr blir mer instrumenterte og datadrevne.",
-      "strong": "Datakyndighet betyr mer i moderne industri, ikke mindre,"
+      "text": "Tre år i software lærte meg problemløsning under press, hvordan lese dokumentasjon og raskt sette meg inn i nye systemer. {strong} etter hvert som terminaler, kraner, rigger og industriutstyr blir mer instrumenterte og datadrevne.",
+      "strong": "Datakyndighet betyr mer i moderne industri og offshore, ikke mindre,"
     },
     "bio3": {
-      "text": "Dette er retningen jeg har valgt bevisst. {strong} Jeg vil bygge en karriere innen løft, kran og industri i Norge, og over tid bli en pålitelig operatør det er verdt å lære opp.",
+      "text": "Dette er retningen jeg har valgt bevisst. {strong} Jeg vil bygge en karriere innen løft, kran og industri i Norge, både onshore og offshore, og over tid bli en pålitelig operatør det er verdt å lære opp.",
       "strong": "Fysisk arbeid med reelle konsekvenser. Mentale utfordringer som bygger styrke. Et team jeg er avhengig av og som er avhengig av meg."
     },
     "bio4": {
@@ -187,26 +187,26 @@
     "kicker": "Kontakt",
     "title1": "Tilgjengelighet og",
     "title2": "direkte kontakt.",
-    "body": "Henvendelser om terminal-, kran-, truck-, rigging- og industriarbeid er velkomne, både faste stillinger, læreplasser, vikariater og prosjektoppdrag. Jeg svarer innen én arbeidsdag, samme dag i norsk arbeidstid. For raske spørsmål er telefon raskere enn e-post.",
+    "body": "Henvendelser om terminal, kran, truck, rigging, industri og offshore er velkomne, både faste stillinger, læreplasser, vikariater, prosjektoppdrag og rotasjon. Jeg svarer innen én arbeidsdag, samme dag i norsk arbeidstid. For raske spørsmål er telefon raskere enn e-post.",
     "emailLabel": "E-post",
     "emailLede": "Stillingsbeskrivelser, oppstartsdetaljer, CV-forespørsler.",
     "phoneLabel": "Telefon",
     "phoneLede": "Kl. 07–20 foretrukket.",
     "basedLabel": "Bosatt i",
     "basedPlace": "Stavern, Norge",
-    "basedLede": "Sentraleuropeisk tid. Oppmøteradius: Larvik, Sandefjord, Porsgrunn, Tønsberg og Grenland-området.",
+    "basedLede": "Sentraleuropeisk tid. Oppmøteradius: Larvik, Sandefjord, Porsgrunn, Tønsberg og Grenland-området. Tilgjengelig for mobilisering til norsk sokkel.",
     "availLabel": "Tilgjengelighet",
     "availState": "Klar til å starte",
-    "availLede": "GSK gyldig til 03/2030, helseattest gyldig til 03/2028. Fleksibel med oppstart og skift.",
+    "availLede": "GSK gyldig til 03/2030, helseattest sjøfolk/offshore gyldig til 03/2028. Fleksibel med oppstart, skift og rotasjon.",
     "linkedinLabel": "LinkedIn",
     "linkedinLede": "Arbeidshistorikk, anbefalinger og felles kontakter."
   },
   "tools": {
     "kicker": "Verktøy",
     "title1": "Verktøy jeg har bygd",
-    "title2": "for å utdype faget mitt.",
-    "lede": "Verktøy jeg har bygd mens jeg har skaffet sertifiseringer innen kran, truck, rigging og boring. Ikke porteføljearbeider, de er stillaset jeg brukte for å studere, øve og holde sertifiseringsløpet på sporet. Hvert verktøy løste et reelt problem i forberedelsen og ble hengende fordi det fortsatte å løse det.",
-    "backPrefix": "Hovedtilbudet er operatørarbeid med kran, truck og løft.",
+    "title2": "for løft, kran og offshore-forberedelse.",
+    "lede": "Verktøy jeg har bygd mens jeg har skaffet sertifiseringer innen kran, truck, rigging og offshore-boring. Ikke porteføljearbeider, de er stillaset jeg brukte for å studere, øve og holde sertifiseringsløpet på sporet. Hvert verktøy løste et reelt problem i forberedelsen og ble hengende fordi det fortsatte å løse det.",
+    "backPrefix": "Hovedtilbudet er operatørarbeid med kran og løft, åpen for onshore og offshore.",
     "backLink": "Se sertifiseringene →"
   },
   "cv": {
@@ -220,7 +220,7 @@
     "profileLead": "Jeg har et sterkt sikkerhetsfokus og presterer godt i fysisk og mentalt krevende miljøer.",
     "profileEmphasis": "Dedikert, lærer raskt, alltid fokusert på å bli bedre.",
     "profileTail": "Komfortabel med å jobbe under press og følge prosedyrer, ser etter en mulighet til å lære og utvikle meg i en bransje jeg er dypt fascinert av.",
-    "target": "Operatør kran, truck og terminal",
+    "target": "Operatør kran, løft og offshore",
     "certAvailable": "Kursbevis tilgjengelig på forespørsel.",
     "sections": {
       "certifications": "Sertifiseringer",
@@ -344,7 +344,7 @@
     }
   },
   "footer": {
-    "byline": "Operatør kran, truck og terminal under opplæring. Bosatt i Stavern.",
+    "byline": "Operatør kran og løft under opplæring, åpen for onshore og offshore. Bosatt i Stavern.",
     "site": "Side",
     "direct": "Direkte",
     "location": "Stavern · Norge"

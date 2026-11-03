@@ -10,16 +10,16 @@
     "hero": {
       "location": "Stavern · Norway",
       "titleLead": "Operator for",
-      "titleMid": "crane, truck and terminal",
-      "titleEnd": "in training.",
-      "body": "Strong safety mindset and fast learner. Comfortable working under pressure and following procedures. Looking for hands-on work with equipment: crane, truck, terminal, lifting, rigging and industry. Based in Stavern, ten minutes from Larvik Harbour, flexible on start and shifts.",
+      "titleMid": "crane and lifting",
+      "titleEnd": "onshore and offshore.",
+      "body": "Strong safety mindset and fast learner. Comfortable working under pressure and following procedures. Looking for hands-on operator work with crane, truck, lifting and industry, both onshore and on the Norwegian shelf. Based in Stavern, ten minutes from Larvik Harbour, flexible on start, shifts and rotation.",
       "ctaCv": "Download CV (PDF)",
       "ctaCvView": "or view in browser →",
       "ctaContact": "Contact"
     },
     "certs": {
       "kicker": "Certifications",
-      "title": "Certifications and credentials.",
+      "title": "Credentials: lifting, crane and offshore safety.",
       "lede": "Course certificates and cert cards shown in full below each entry.",
       "scheduled": "Scheduled",
       "placeholderLabel": "Certificate: {short}",
@@ -34,7 +34,7 @@
       "kicker": "Also",
       "title1": "Building tools",
       "title2": "That deepen my knowledge.",
-      "body1": "Personal tools I built to go deeper into lifting, cranes and rigging: an overhead-crane simulator, a fixed-mount hydraulic-crane simulator, a rigging route planner, and a drilling fundamentals simulator.",
+      "body1": "Personal tools I built to go deeper into lifting, cranes, rigging and offshore drilling: an overhead-crane simulator, a fixed-mount hydraulic-crane simulator, a rigging route planner, and a drilling fundamentals simulator.",
       "body2": "I enjoy turning new knowledge I pick up from courses into models I can interact with and keep learning from. That habit is how I go from zero to competent fast, and how I make the content stick.",
       "seeAll": "See all tools →"
     },
@@ -58,8 +58,8 @@
   },
   "certifications": {
     "GSK": {
-      "name": "GSK Basic Safety and Emergency Response Training",
-      "description": "RSS-20756. Norwegian basic safety training covering sea survival, fire, first aid and HUET. Valid 03/2030."
+      "name": "GSK Basic Safety Course Offshore",
+      "description": "RSS-20756. Norwegian offshore basic safety covering sea survival, fire, first aid and HUET. Valid 03/2030."
     },
     "Helseattest": {
       "name": "Offshore Medical Certificate",
@@ -70,8 +70,8 @@
       "description": "Rigging and signalling for lifting operations: slings, shackles and lifting gear."
     },
     "NOG113": {
-      "name": "NOG 113 / NS 9610 Fall Protection",
-      "description": "Standard for working at height, harness use and rescue, widely used in oil and gas, industry and wind power."
+      "name": "NOG 113 / NS 9610 Fall Protection Offshore",
+      "description": "Norwegian Oil & Gas standard for working at height, harness use and rescue."
     },
     "Rigger": {
       "name": "Rigger Course (P-2.4 / P-4.4)",
@@ -103,11 +103,11 @@
       "strong": "1,000+ dives as a PADI and CMAS instructor"
     },
     "bio2": {
-      "text": "Three years in software taught me problem-solving under pressure, how to read documentation and learn new systems fast. {strong} as terminals, cranes and industrial equipment get more instrumented and data-driven.",
-      "strong": "Computer literacy matters more in modern industry, not less,"
+      "text": "Three years in software taught me problem-solving under pressure, how to read documentation and learn new systems fast. {strong} as terminals, cranes, rigs and industrial equipment get more instrumented and data-driven.",
+      "strong": "Computer literacy matters more in modern industry and offshore, not less,"
     },
     "bio3": {
-      "text": "This is the direction I've chosen deliberately. {strong} I want to build a career in lifting, crane work and industry in Norway, and over time become a reliable operator worth training.",
+      "text": "This is the direction I've chosen deliberately. {strong} I want to build a career in lifting, crane work and industry in Norway, both onshore and offshore, and over time become a reliable operator worth training.",
       "strong": "Physical work with real stakes. Mental challenges that build strength. A team I depend on and who depends on me."
     },
     "bio4": {
@@ -187,26 +187,26 @@
     "kicker": "Contact",
     "title1": "Availability and",
     "title2": "direct reach.",
-    "body": "Enquiries about terminal, crane, truck, rigging and industrial roles welcome, whether permanent, apprenticeships, temporary cover or project assignments. I reply within a working day, same day during Norwegian office hours. For quick questions phone is faster than email.",
+    "body": "Enquiries about terminal, crane, truck, rigging, industry and offshore roles welcome, whether permanent, apprenticeships, temporary cover, project assignments or rotation. I reply within a working day, same day during Norwegian office hours. For quick questions phone is faster than email.",
     "emailLabel": "Email",
     "emailLede": "Role descriptions, start details, CV requests.",
     "phoneLabel": "Phone",
     "phoneLede": "7am to 8pm preferred.",
     "basedLabel": "Based in",
     "basedPlace": "Stavern, Norway",
-    "basedLede": "Central European Time. Reach: Larvik, Sandefjord, Porsgrunn, Tønsberg and the Grenland area.",
+    "basedLede": "Central European Time. Reach: Larvik, Sandefjord, Porsgrunn, Tønsberg and the Grenland area. Available for mobilisation to the Norwegian shelf.",
     "availLabel": "Availability",
     "availState": "Ready to start",
-    "availLede": "GSK valid to 03/2030, medical certificate valid to 03/2028. Flexible with start and shifts.",
+    "availLede": "GSK valid to 03/2030, offshore medical certificate valid to 03/2028. Flexible with start, shifts and rotation.",
     "linkedinLabel": "LinkedIn",
     "linkedinLede": "Work history, endorsements and mutual connections."
   },
   "tools": {
     "kicker": "Tools",
     "title1": "Tools I built",
-    "title2": "to go deeper into the trade.",
-    "lede": "Tools I built while picking up certifications in crane, truck, rigging and drilling. Not portfolio pieces, they're the scaffolding I used to study, practise and keep the certification run on track. Each one solved a real problem in the preparation and stuck around because it kept solving it.",
-    "backPrefix": "The primary offer is operator work with crane, truck and lifting.",
+    "title2": "for lifting, crane and offshore prep.",
+    "lede": "Tools I built while picking up certifications in crane, truck, rigging and offshore drilling. Not portfolio pieces, they're the scaffolding I used to study, practise and keep the certification run on track. Each one solved a real problem in the preparation and stuck around because it kept solving it.",
+    "backPrefix": "The primary offer is operator work with crane and lifting, open to onshore and offshore.",
     "backLink": "See the certifications →"
   },
   "cv": {
@@ -220,7 +220,7 @@
     "profileLead": "I have a strong safety mindset and perform well in physically and mentally demanding environments.",
     "profileEmphasis": "Dedicated, fast learner, always focused on improving.",
     "profileTail": "Comfortable working under pressure and following procedures, looking for an opportunity to learn and grow in an industry that I'm fascinated about.",
-    "target": "Operator Crane, Truck and Terminal",
+    "target": "Operator Crane, Lifting and Offshore",
     "certAvailable": "Certificates available on request.",
     "sections": {
       "certifications": "Certifications",
@@ -344,7 +344,7 @@
     }
   },
   "footer": {
-    "byline": "Operator crane, truck and terminal, in training. Based in Stavern.",
+    "byline": "Operator crane and lifting, in training, open to onshore and offshore. Based in Stavern.",
     "site": "Site",
     "direct": "Direct",
     "location": "Stavern · Norway"

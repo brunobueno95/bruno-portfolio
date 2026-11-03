@@ -190,80 +190,18 @@ const onExpandLeave = (el: Element) => {
 
 <template>
   <div>
-    <!-- Hero: industrial dark backdrop + port skyline + portrait -->
-    <section class="relative isolate overflow-hidden bg-neutral-950">
-      <!-- Deep gradient base -->
-      <div
-        class="absolute inset-0 bg-gradient-to-br from-neutral-950 via-slate-900 to-neutral-950"
-      />
-      <!-- Subtle technical dot grid -->
-      <div
-        class="absolute inset-0 opacity-50"
-        style="background-image: radial-gradient(rgba(148,163,184,0.09) 1px, transparent 1px); background-size: 24px 24px;"
+    <!-- Hero: offshore backdrop + positioning + photo -->
+    <section class="relative isolate overflow-hidden bg-black">
+      <NuxtImg
+        src="/images/hero-rig.jpg"
+        alt=""
         aria-hidden="true"
+        loading="eager"
+        class="absolute inset-0 h-full w-full object-cover grayscale"
       />
-      <!-- Port skyline silhouette: gantry cranes + container stacks -->
-      <svg
-        class="pointer-events-none absolute inset-x-0 bottom-0 h-80 w-full opacity-45 md:h-[26rem]"
-        viewBox="0 0 1600 400"
-        preserveAspectRatio="xMidYMax slice"
-        aria-hidden="true"
-      >
-        <!-- Horizon line (quay) -->
-        <rect y="378" width="1600" height="22" fill="#000" />
-        <!-- Container stack, far left -->
-        <g fill="#1f2937">
-          <rect x="60" y="320" width="70" height="58" />
-          <rect x="130" y="320" width="70" height="58" />
-          <rect x="200" y="320" width="70" height="58" />
-          <rect x="130" y="270" width="70" height="50" />
-          <rect x="200" y="270" width="70" height="50" />
-          <rect x="200" y="220" width="70" height="50" />
-        </g>
-        <!-- Gantry crane 1 (left, medium) -->
-        <g fill="#334155">
-          <rect x="340" y="140" width="12" height="238" />
-          <rect x="520" y="140" width="12" height="238" />
-          <rect x="340" y="128" width="192" height="14" />
-          <polygon points="340,128 220,80 220,100 340,142" />
-          <polygon points="532,128 650,50 650,72 532,142" />
-          <rect x="420" y="142" width="26" height="32" />
-          <rect x="431" y="174" width="4" height="110" />
-          <rect x="416" y="284" width="34" height="8" />
-          <rect x="422" y="292" width="22" height="30" fill="#475569" />
-        </g>
-        <!-- Gantry crane 2 (center, tallest) -->
-        <g fill="#475569">
-          <rect x="690" y="70" width="14" height="308" />
-          <rect x="930" y="70" width="14" height="308" />
-          <rect x="690" y="54" width="254" height="18" />
-          <polygon points="690,54 540,-10 540,20 690,72" />
-          <polygon points="944,54 1120,-30 1120,0 944,72" />
-          <rect x="800" y="72" width="30" height="38" />
-          <rect x="813" y="110" width="4" height="140" />
-          <rect x="796" y="250" width="38" height="10" />
-          <rect x="804" y="260" width="22" height="34" fill="#64748b" />
-        </g>
-        <!-- Gantry crane 3 (right, medium) -->
-        <g fill="#334155">
-          <rect x="1150" y="160" width="12" height="218" />
-          <rect x="1320" y="160" width="12" height="218" />
-          <rect x="1150" y="148" width="182" height="14" />
-          <polygon points="1150,148 1030,100 1030,120 1150,162" />
-          <polygon points="1332,148 1450,70 1450,90 1332,162" />
-          <rect x="1230" y="162" width="24" height="30" />
-          <rect x="1240" y="192" width="4" height="100" />
-          <rect x="1224" y="292" width="32" height="8" />
-        </g>
-        <!-- Container stacks, right -->
-        <g fill="#1f2937">
-          <rect x="1420" y="320" width="60" height="58" />
-          <rect x="1480" y="320" width="60" height="58" />
-          <rect x="1540" y="320" width="60" height="58" />
-          <rect x="1480" y="276" width="60" height="44" />
-        </g>
-      </svg>
-      <!-- Bottom fade to black for text contrast -->
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-black via-black/75 to-black/20"
+      />
       <div
         class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-black"
       />
